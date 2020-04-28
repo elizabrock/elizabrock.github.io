@@ -9,10 +9,6 @@ GEM
       zeitwerk (~> 2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    bitters (2.0.4)
-      thor (~> 1.0)
-    bourbon (7.0.0)
-      thor (~> 1.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -208,9 +204,6 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.14.0)
     multipart-post (2.1.1)
-    neat (1.7.4)
-      bourbon (>= 4.0)
-      sass (>= 3.3)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     octokit (4.18.0)
@@ -237,7 +230,6 @@ GEM
       faraday (> 0.8, < 2.0)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    thor (1.0.1)
     thread_safe (0.3.6)
     typhoeus (1.3.1)
       ethon (>= 0.9.0)
@@ -250,10 +242,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bitters
-  bourbon
   github-pages
-  neat
 
 BUNDLED WITH
    1.17.2
