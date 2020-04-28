@@ -1,9 +1,6 @@
+
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "bourbon/bourbon";
-@import "base/grid-settings";
-@import "neat/neat";
-@import "base/base";
-@import "vendor/jquery.modal-0.7.0.min";
+@import "normalize";
