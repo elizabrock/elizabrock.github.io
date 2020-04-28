@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Eliza Marcum -- Owner -- @elizabrock
+
+# THANKS
+
+    Nicolas Gallagher (normalize.css)
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    GitHub Pages, Normalize.css
