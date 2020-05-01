@@ -5,6 +5,7 @@
         <title>{% if page.title %}{{ page.title | escape }}{% endif %} | {{ site.title }}</title>
         <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"> <!-- TODO: Improve this via. the SEO plugin -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/primitive-ui/dist/css/main.css" />
         <link rel="stylesheet" href="/css/main.css">
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
         <script src="https://use.typekit.net/fen2vba.js"></script>
