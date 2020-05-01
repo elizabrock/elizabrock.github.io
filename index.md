@@ -5,15 +5,32 @@ hide-title: true
 order: 1
 permalink: /
 ---
+# Welcome! I'm Eliza (Brock) Marcum.
 
-<h2 class="section-title">Here's To Serendipity!</h2>
-<section class="callout">
-  <section class="half-column">
-    <img src="/images/2016headshot.jpg" class="inline" style="border: 7px solid #171717;" />
-  </section>
-  <section class="half-column">
-    <p>Welcome! I'm Eliza (Brock) Marcum.</p>
-    <p>I previously ran my own software company, <a href="https://www.elizabrocksoftware.com/">Eliza Brock Software</a>.</p>
-    <p>I make magical things on the internet.</p>
-  </section>
-</section>
+<img src="/images/2018headshot.png" id="headshot" alt="Eliza Brock Marcum, smiling" />
+
+I previously ran my own software company, <a href="https://www.elizabrocksoftware.com/">Eliza Brock Software</a>.
+
+I make magical things on the internet.
+
+## Some things you may want to know about me:
+
+<nav>
+  <ul>
+    <li>
+      <a href="/about">Who Am I?</a>
+    </li>
+    <li>
+      <a href="/portfolio_and_resume">What Have I Done?</a>
+    </li>
+    <li>
+      <a href="/current_projects">What Am I Working On Now?</a>
+    </li>
+    <li>
+      <a href="/community-involvement">How Do I Contribute?</a>
+    </li>
+    <li>
+      <a href="/social">How To Get In Touch?</a>
+    </li>
+  </ul>
+</nav>

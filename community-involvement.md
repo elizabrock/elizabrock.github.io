@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Community Involvement
-order: 4
+order: 5
 permalink: /community-involvement/
 ---
+# How Do I Contribute? / Community Involvement
+
 <section class="full-column">
   <section class="half-column">
     <h2 class="section-title">Speaking</h2>
@@ -26,7 +28,7 @@ permalink: /community-involvement/
 
     <h2 class="section-title">Event Sponsorships</h2>
     <section class="callout">
-      <p>Eliza Brock Software (my company) has sponsored a number of conferences and events, including:</p>
+      <p>Through my former company, Eliza Brock Software, I sponsored a number of conferences and events, including:</p>
 
       <p>
         <ul>

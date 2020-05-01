@@ -244,6 +244,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-sitemap
+  jemoji
   tzinfo-data
 
 BUNDLED WITH

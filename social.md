@@ -2,9 +2,12 @@
 layout: page
 title: Social
 hide-title: true
-order: 5
+order: 6
 permalink: /social/
 ---
+
+# How To Get In Touch
+
 <section class="full-column">
   <section class="half-column">
     <h2 class="section-title">Twitter</h2>
