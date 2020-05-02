@@ -18,19 +18,19 @@ I make magical things on the internet.
 <nav>
   <ul>
     <li>
-      <a href="">Who Am I?</a>
+      <a href="/about">Who Am I?</a>
     </li>
     <li>
-      <a href="">What Have I Done?</a>
+      <a href="/portfolio_and_resume">What Have I Done?</a>
     </li>
     <li>
-      <a href="">What Am I Working On Now?</a>
+      <a href="/current_projects">What Am I Working On Now?</a>
     </li>
     <li>
-      <a href="">How Do I Contribute?</a>
+      <a href="/community-involvement">How Do I Contribute?</a>
     </li>
     <li>
-      <a href="">How Can We Get In Touch?</a>
+      <a href="/social">How To Get In Touch?</a>
     </li>
   </ul>
 </nav>

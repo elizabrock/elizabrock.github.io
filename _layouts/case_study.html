@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<h1>Case Study: {{ page.client_name }}</h1>
+
+<a href="{{ page.client_link }}">
+  <img src="/images/portfolio/logos/{{ page.logo }}" alt="{{ page.client_name }} Logo" />
+</a>
+
+<h2>About The Client</h2>
+
+{{ page.about }}
+
+<h2>Project Goal</h2>
+
+{{ page.goal }}
+
+<p class="project-timeline">Timeline: {{ page.timeline }}</p>
+
+<h2>Results</h2>
+
+{{ page.result }}
+
+{% if page.quote %}
+  <blockquote>
+    <p>&#147;{{ page.quote }}&#148;</p>
+    <cite>&mdash; {{ page.quote_attribution }}</cite>
+  </blockquote>
+{% endif %}
+
+{% if page.screenshots %}
+  {% for screenshot in page.screenshots %}
+    <img src="/images/portfolio/screenshots/{{ screenshot }}" alt="Screenshot from {{ page.client_name }} project" />
+  {% endfor %}
+{% endif %}

@@ -1,5 +1,6 @@
 ---
 layout: page
+sitemap: false
 title: Style Guide
 permalink: /style_guide/
 ---

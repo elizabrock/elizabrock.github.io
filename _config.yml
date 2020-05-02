@@ -18,7 +18,8 @@ description: > # this means to ignore newlines until "baseurl:"
   The personal website of Eliza Brock Marcum, Nashville-based Software Engineer,
   and Educator.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://elizamarcum.com" # the base hostname & protocol for your site, e.g. http://example.com
+# TODO: Update to elizamarcum.com
+url: "http://elizabrock.com" # the base hostname & protocol for your site, e.g. http://example.com
 email: eliza@elizamarcum.com
 twitter_username: elizabrock
 github_username:  elizabrock
@@ -29,6 +30,27 @@ markdown: kramdown
 plugins:
 #   - jekyll-feed
   - jekyll-sitemap
+  - jemoji
+
+collections:
+  case_studies:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "case_studies"
+    values:
+      layout: "case_study"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

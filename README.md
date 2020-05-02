@@ -20,13 +20,13 @@ Run `jekyll serve --watch` in the root of the project.
 
 ## TODO
 
-1. Update dependencies
+1. ✔ Update dependencies
 2. Update markup (\_includes, \_layouts, \*.md)
 3. Add jekyll seo plugin
-4. Add jekyll sitemap
+4. ✔ Add jekyll sitemap
 2. Update content
-  1. Headshot
-  1. Bio
+  1. ✔ Headshot
+  1. ✔ Bio
   2. Skill list
   3. Resume
 0. Styling
@@ -34,10 +34,12 @@ Run `jekyll serve --watch` in the root of the project.
   2. 404
 1. Google analytics snippet
 2. Sitemap with good updated ats
-3. Update favicon with new blue color (rememnber favicon.io)
+14. Look in Google Search Console
+3. Update favicon with new blue color (remember favicon.io)
 10. Set up SEO-friendly redirect from elizabrock.com to elizamarcum.com
 11. Set up github pages to use elizamarcum.com
 12. Relaunch personal site
+13. Cancel Squarespace
 
 ## Future Improvements
 
