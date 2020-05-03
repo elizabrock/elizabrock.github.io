@@ -1,3 +1,131 @@
 /**
- * Layout
+ * Layout, Specific to elizamarcum.com:
  */
+
+$logo-height: 5rem;
+body > header {
+  @extend .container;
+  max-width: $small;
+  padding-top: 3rem;
+  nav {
+    #logo {
+      height: $logo-height;
+    }
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: left;
+      padding-left: 0;
+      align-items: center;
+      li {
+        display: inline-block;
+        padding-right: 1rem;
+        a {
+        }
+      }
+    }
+  }
+}
+
+body > footer {
+  @extend .container;
+  max-width: $small;
+  margin-bottom: 1em;
+  text-align: center;
+  nav ul li {
+    display: inline-block;
+  }
+  a {
+    color: #491918;
+    text-decoration: underline;
+  }
+}
+
+body > main > section {
+  @extend %flex-row;
+  & > h2, & > div {
+    @extend %flex-cell;
+  }
+}
+
+@include small-breakpoint {
+  body > main > section > div {
+    @include flex-breakpoints;
+  }
+}
+@include large-breakpoint {
+  body > main > section > div {
+    @include flex-breakpoints;
+  }
+}
+
+body > main > section {
+  // TODO: Find out if this is relevant in 2020
+  // Set a non-alpha background color to soothe IE
+  background-color: $pale;
+  background: $background url('/images/bg-gradient-large-lightest.png') repeat-x top center;
+  border: 1px solid $border-color;
+  border-top: 5px solid $darkred;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 5px;
+  margin-top: -1.5rem; // Snug it up against the heading
+  margin-bottom: 1.5rem;
+  padding: $base-font-size;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+  ul {
+    list-style-type: disc;
+    &.two-up {
+      list-style-type: none;
+      li {
+        width: 48%;
+        display: inline-block;
+      }
+    }
+  }
+  ol {
+    margin-left: 1em;
+    list-style-type: decimal;
+  }
+  & + section.callout {
+    margin-top: 1em;
+  }
+}
+
+
+// Assorted
+
+figure {
+  &.to-right {
+    max-width: 50%;
+    float: right;
+  }
+}
+
+ul {
+  margin-left: -1rem;
+}
+
+ul#skill_set {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    white-space: nowrap;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1;
+    position: relative;
+    padding: 0.20833em 0.5em 0.25em;
+    margin-bottom: 0.15em;
+    background-color: $mediumred;
+    color: white;
+    border-radius: 3px;
+  }
+}

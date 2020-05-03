@@ -16,12 +16,14 @@
         <![endif]-->
 
         <header>
-          <a href="{{ site.baseurl }}/">
-            Eliza Marcum
-            <!-- <img src="/images/elizabrocklogo.png" id="logo" alt="Eliza Brock Logo" /> -->
-          </a>
           <nav>
             <ul>
+              <li>
+                <a href="{{ site.baseurl }}/">
+                  <img src="/images/elizabrockicon.png" id="logo" alt="Eliza Brock Marcum Icon" />
+                  <span class="screen-reader-text">Eliza Marcum Home</span>
+                </a>
+              </li>
               {% assign sorted_pages = site.pages | sort:"order" %}
               {% for my_page in sorted_pages %}
                 {% if my_page.order %}
@@ -32,33 +34,19 @@
           </nav>
         </header>
 
-        <main>
-          <section id="page-body">
-            {{ content }}
-          </section>
-        </section>
+        <main class="small-container">
+          {{ content }}
+        </main>
 
         <footer id="site-footer">
           <div class="full-column">
-            <h3>For Good Quotes, Free Advice and Excellent Conversation:</h3>
-            <nav>
-              <ul>
-                <li>
-                  <div id="email" class="modal-content">
-                    <p>
-                      Email:
-                      <br />
-                      <a href="mailto:eliza@elizamarcum.com">eliza@elizamarcum.com</a>
-                    </p>
-                  </div>
-                  <a href="#email" rel="modal:open">email</a>
-                </li>
-                <li>
-                  or
-                  <a href="http://twitter.com/#!/elizabrock" target="_blank">tweet</a>
-                </li>
-              </ul>
-            </nav>
+            <!-- TODO: Remove modal code -->
+            <h5>
+              For Good Quotes, Free Advice and Excellent Conversation:
+              <a href="mailto:eliza@elizamarcum.com">email</a>
+              or
+              <a href="http://twitter.com/#!/elizabrock" target="_blank">tweet</a>
+            </h5>
           </div>
         </footer>
 

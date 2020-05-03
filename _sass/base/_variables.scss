@@ -1,13 +1,11 @@
-// Breakpoints
-$medium-screen: 600px;
-$large-screen: 900px;
+@import "variables_from_bourbon";
 
 // Typography
 $base-font-family: "ronnia", $font-stack-system;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
-$base-font-size: 1.5em;
+$base-font-size: 1.5rem;
 
 // Line height
 $base-line-height: 1.5;

@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-<article class="full-column">
-  {% unless page.hide-title %}
-    <header class="page-header">
-      <h1 class="page-title">{% if page.page-title %}{{ page.page-title }}{% else %}{{ page.title }}{% endif %}</h1>
-    </header>
-  {% endunless %}
-  {{ content }}
-</article>
+{% unless page.hide-title %}
+  <header class="page-header">
+    <h1 id="page-title">{% if page.page-title %}{{ page.page-title }}{% else %}{{ page.title }}{% endif %}</h1>
+  </header>
+{% endunless %}
+{{ content }}

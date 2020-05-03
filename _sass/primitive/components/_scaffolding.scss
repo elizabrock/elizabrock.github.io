@@ -52,11 +52,11 @@ h5 {
 }
 
 // Increased margin on additional headings
-h1:not(:first-child),
-h2:not(:first-child),
-h3:not(:first-child) {
-  margin-top: 2rem;
-}
+// h1:not(:first-child),
+// h2:not(:first-child),
+// h3:not(:first-child) {
+//   margin-top: 2rem;
+// }
 
 // Heading individual styles
 h1 {
@@ -81,11 +81,11 @@ h5 {
 
 @include small-breakpoint {
   // Increased margin on additional headings
-  h1:not(:first-child),
-  h2:not(:first-child),
-  h3:not(:first-child) {
-    margin-top: 2.5rem;
-  }
+  // h1:not(:first-child),
+  // h2:not(:first-child),
+  // h3:not(:first-child) {
+  //   margin-top: 2.5rem;
+  // }
 
   // Heading desktop individual styles
   h1 {

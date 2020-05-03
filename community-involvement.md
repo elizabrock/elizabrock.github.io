@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community Involvement
+title: Community
 order: 5
 permalink: /community-involvement/
 ---
@@ -8,7 +8,7 @@ permalink: /community-involvement/
 
 <section class="full-column">
   <section class="half-column">
-    <h2 class="section-title">Speaking</h2>
+    <h2>Speaking</h2>
     <section class="callout">
       <p>I've spoken at a number of events, including:</p>
       <p>
@@ -26,7 +26,7 @@ permalink: /community-involvement/
       <p>I also co-organize <a href="http://www.meetup.com/NashvilleWomenProgrammers">Nashville Women Programmers</a> and <a href="http://www.devopsdays.org/events/2016-nashville/welcome/">the Nashville DevOpsDays conference</a>.</p>
     </section>
 
-    <h2 class="section-title">Event Sponsorships</h2>
+    <h2>Event Sponsorships</h2>
     <section class="callout">
       <p>Through my former company, Eliza Brock Software, I sponsored a number of conferences and events, including:</p>
 
@@ -45,12 +45,12 @@ permalink: /community-involvement/
     </section>
   </section>
   <section class="half-column">
-    <h2 class="section-title">Open Source</h2>
+    <h2>Open Source</h2>
     <section class="callout">
       <p>I contribute to open source projects via. <a href="https://github.com/elizabrock">Github</a>.</p>
     </section>
 
-    <h2 class="section-title">Mentoring</h2>
+    <h2>Mentoring</h2>
     <section class="callout">
       <h3>MentorNet</h3>
       <p><a href="http://www.mentornet.net/">MentorNet</a> is an online service the connects college students in Science, Technology, Maths and Engineering with professionals working in the field.</p>
