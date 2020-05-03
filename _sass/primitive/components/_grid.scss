@@ -16,19 +16,50 @@ $margin-bottom: 1rem;
   margin-right: -$column-padding;
 }
 
-// Flex row
-.flex-row {
-  @extend %row-margin;
+// TODO: Contribute back:
+
+%flex-row {
+  // @extend %row-margin;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+// Flex row
+.flex-row {
+  @extend %flex-row;
+}
 
-.flex-small,
-.flex-large {
+// TODO: Contribute these tweaks back to the primitive project:
+%flex-cell {
   @extend %column-padding;
   flex-basis: 100%;
   margin-bottom: $margin-bottom;
+}
+
+.flex-small,
+.flex-large {
+  @extend %flex-cell;
+}
+
+/* All breakpoints */
+
+@mixin flex-breakpoints {
+  margin-bottom: 0;
+  &.half {
+    flex: 0 0 calc(1 / 2 * 100%);
+  }
+  &.one-fourth {
+    flex: 0 0 calc(1 / 4 * 100%);
+  }
+  &.three-fourths {
+    flex: 0 0 calc(3 / 4 * 100%);
+  }
+  &.one-third {
+    flex: 0 0 calc(1 / 3 * 100%);
+  }
+  &.two-thirds {
+    flex: 0 0 calc(2 / 3 * 100%);
+  }
 }
 
 /* Small screen breakpoint */
@@ -36,22 +67,7 @@ $margin-bottom: 1rem;
 @include small-breakpoint {
   .flex-small {
     flex: 1;
-    margin-bottom: 0;
-    &.half {
-      flex: 0 0 calc(1 / 2 * 100%);
-    }
-    &.one-fourth {
-      flex: 0 0 calc(1 / 4 * 100%);
-    }
-    &.three-fourths {
-      flex: 0 0 calc(3 / 4 * 100%);
-    }
-    &.one-third {
-      flex: 0 0 calc(1 / 3 * 100%);
-    }
-    &.two-thirds {
-      flex: 0 0 calc(2 / 3 * 100%);
-    }
+    @include flex-breakpoints;
   }
 }
 
@@ -60,21 +76,6 @@ $margin-bottom: 1rem;
 @include large-breakpoint {
   .flex-large {
     flex: 1;
-    margin-bottom: 0;
-    &.half {
-      flex: 0 0 calc(1 / 2 * 100%);
-    }
-    &.one-fourth {
-      flex: 0 0 calc(1 / 4 * 100%);
-    }
-    &.three-fourths {
-      flex: 0 0 calc(3 / 4 * 100%);
-    }
-    &.one-third {
-      flex: 0 0 calc(1 / 3 * 100%);
-    }
-    &.two-thirds {
-      flex: 0 0 calc(2 / 3 * 100%);
-    }
+    @include flex-breakpoints;
   }
 }

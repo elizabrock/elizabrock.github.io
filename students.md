@@ -2,15 +2,14 @@
 layout: page
 title: Students
 hide-title: true
-order: 3
 permalink: /students/
 ---
-<h2 class="section-title">What I Teach:</h2>
+<h2>What I Teach:</h2>
 <section class="callout">
   <img src="/images/rails_topic_list.jpg" />
 </section>
 
-<h2 class="section-title">Do you want to learn?</h2>
+<h2>Do you want to learn?</h2>
 <section class="callout">
   <p>If you've always wanted to learn to program or are just a little bit curious, I'd be happy to help you learn by working through the programming tutorial of your choice (or I can suggest one based on what you'd like to learn).</p>
 
@@ -25,7 +24,7 @@ permalink: /students/
   </ul>
 </section>
 
-<h2 class="section-title">What My Students Say:</h2>
+<h2>What My Students Say:</h2>
 <section class="callout">
   <blockquote>
     <p>&#147;Eliza’s teachings are the sole reason that I feel confident in my ability to not only work in Ruby on Rails, but to also help teach it to others.&#148;</p>
@@ -45,7 +44,7 @@ permalink: /students/
   </blockquote>
 </section>
 
-<h2 class="section-title">My Students :)</h2>
+<h2>My Students :)</h2>
 <section class="callout">
   <ul class="gallery two-up">
     <li><img src="/images/cohort1.jpeg" alt="Nashville Software School Cohort 1" /></li>

@@ -2,12 +2,11 @@
 layout: page
 title: Home
 hide-title: true
-order: 1
 permalink: /
 ---
 # Welcome! I'm Eliza (Brock) Marcum.
 
-<img src="/images/2018headshot.png" id="headshot" alt="Eliza Brock Marcum, smiling" />
+<img src="/images/2018headshot.png" id="headshot" class="responsive-image" alt="Eliza Brock Marcum, smiling" />
 
 I previously ran my own software company, <a href="https://www.elizabrocksoftware.com/">Eliza Brock Software</a>.
 

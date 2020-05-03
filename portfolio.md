@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Portfolio & Resume
+title: Portfolio
 hide-title: true
 order: 3
 permalink: /portfolio_and_resume

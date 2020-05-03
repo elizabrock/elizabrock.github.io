@@ -32,6 +32,7 @@ Run `jekyll serve --watch` in the root of the project.
 0. Styling
   1. General
   2. 404
+24. Check on TOODs
 1. Google analytics snippet
 2. Sitemap with good updated ats
 14. Look in Google Search Console
