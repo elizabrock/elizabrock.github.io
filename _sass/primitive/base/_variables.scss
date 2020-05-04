@@ -9,7 +9,7 @@
 //==============================================================================
 
 $x-small: 600px !default;
-$small: 800px !default;
+$small: 750px !default;
 $medium: 1000px !default;
 $large: 1200px !default;
 
@@ -76,7 +76,7 @@ $h5: 1.25rem !default;
 //==============================================================================
 
 $padding: 1rem !default;
-$margins: 1.5rem !default;
+$margins: $base-font-size !default;
 $content-padding: 60px 0 !default;
 $content-padding-mobile: 30px 0 !default;
 

@@ -26,11 +26,12 @@ permalink: /portfolio_and_resume
 
 Eliza Brock Software performed software development and other technical services for many clients.  The following are a selection of case studies from the client work that I did there.
 
-<ul>
+<ul class="clients">
   {% for case_study in site.case_studies %}
     <li>
       <a href="{{ case_study.url }}">
         <figure>
+          <!-- TODO: Run all the logos through a resizer, a. la Gwen's cookbook -->
           <img src="/images/portfolio/logos/{{ case_study.logo }}" alt="{{ case_study.client_name }} Logo" />
           <figcaption>{{ case_study.client_name }}</figcaption>
         </figure>
@@ -43,7 +44,7 @@ Eliza Brock Software performed software development and other technical services
 
 I'm proud of them, but I haven't taken the time to write even a basic summary of my work with these clients:
 
-<ul>
+<ul class="additional clients">
   {% for client in site.data.additional_clients_list %}
     <li>
         <figure>
