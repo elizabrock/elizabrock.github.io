@@ -1,4 +1,5 @@
 ---
+title: "Case Study: Taigan"
 client_name: Taigan
 timeline: 2009-2010 and 2013-2014
 logo: taigan_logo.png
@@ -12,4 +13,3 @@ goal: |
 result: |
   In 2013-2014 my team and I worked closely with Taigan to get their automated test suite running again, and then to upgrade their codebase from ruby 1.8 to ruby 1.9, and then from Rails 2.3 to Rails 3.2. We also helped Taigan interview their maintenance development team and subsequently worked with them as technical advisors. In previous projects (2009-2010) we implemented an updated shopping cart system and Taigan Gold, their premium membership service.
 ---
-

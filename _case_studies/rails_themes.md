@@ -1,4 +1,5 @@
 ---
+title: "Case Study: RailsThemes.com"
 client_name: RailsThemes.com
 timeline: 2012 - 2015
 logo: railsthemes_logo.png

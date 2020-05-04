@@ -1,4 +1,5 @@
 ---
+title: "Case Study: SourceYourCity"
 client_name: SourceYourCity
 timeline: 2010 - 2012
 logo: sourceyourcity_logo.png

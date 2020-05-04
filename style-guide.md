@@ -1,12 +1,11 @@
 ---
 layout: page
 sitemap: false
-title: Style Guide
+title: Style Guide / HTML5 Element Test Page
 permalink: /style_guide/
 ---
 
-<h1>HTML5 Element Test Page</h1>
-<p>Common HTML5 elements for CSS testing purposes.</p>
+<p>Common HTML5 elements for CSS testing purposes, copied from Primitive.</p>
 
 <h1>Formatting</h1>
 

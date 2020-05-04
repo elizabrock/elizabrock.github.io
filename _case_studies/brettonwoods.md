@@ -1,4 +1,5 @@
 ---
+title: "Case Study: Mount Washington Resort Brettonwoods"
 client_name: Mount Washington Resort Brettonwoods
 client_link: https://www.brettonwoods.com/
 timeline: 2013 - 2016

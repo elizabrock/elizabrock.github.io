@@ -13,23 +13,19 @@
         {% seo %}
     </head>
     <body>
-        <!--[if IE]>
-          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
         <header>
           <nav>
+            <a href="{{ site.baseurl }}/" id="logo">
+              <figure>
+                <img src="/images/elizabrockicon.png" alt="Eliza Brock Marcum Icon" />
+                <figcaption>Eliza Marcum</figcaption>
+              </figure>
+            </a>
             <ul>
-              <li>
-                <a href="{{ site.baseurl }}/">
-                  <img src="/images/elizabrockicon.png" id="logo" alt="Eliza Brock Marcum Icon" />
-                  <span class="screen-reader-text">Eliza Marcum Home</span>
-                </a>
-              </li>
               {% assign sorted_pages = site.pages | sort:"order" %}
               {% for my_page in sorted_pages %}
                 {% if my_page.order %}
-                <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nav-title }}</a></li>
                 {% endif %}
               {% endfor %}
             </ul>
@@ -41,14 +37,12 @@
         </main>
 
         <footer id="site-footer">
-          <div class="full-column">
-            <h5>
-              For Good Quotes, Free Advice and Excellent Conversation:
-              <a href="mailto:eliza@elizamarcum.com">email</a>
-              or
-              <a href="http://twitter.com/#!/elizabrock" target="_blank">tweet</a>
-            </h5>
-          </div>
+          <h5>
+            For Good Quotes, Free Advice and Excellent Conversation:
+            <a href="mailto:eliza@elizamarcum.com">email</a>
+            or
+            <a href="http://twitter.com/#!/elizabrock" target="_blank">tweet</a>
+          </h5>
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

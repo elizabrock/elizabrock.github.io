@@ -1,42 +1,35 @@
 ---
 layout: page
-title: Contact
+nav-title: Contact
+title: How To Get In Touch
 hide-title: true
 order: 6
 permalink: /social/
 ---
 
-<!-- TODO: Move this to /contact and set up a redirect from /social -->
+<!-- TODO: Change this permalink to be /contact and set up a redirect from /social -->
 
-# How To Get In Touch
-
-<section class="full-column">
-  <section class="half-column">
-    <h2>Twitter</h2>
-    <section class="callout">
-      <a class="twitter-timeline" href="https://twitter.com/elizabrock" data-widget-id="489142233421979648">Tweets by @elizabrock</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </section>
-  </section>
-  <section class="half-column">
-    <h2>GitHub</h2>
-    <section class="callout">
-      <iframe src="http://lab.lepture.com/github-cards/card.html?user=elizabrock" frameborder="0" scrolling="0" width="365" height="200" allowtransparency></iframe>
-    </section>
-    <h2>LinkedIn</h2>
-    <section class="callout">
-      <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-      <script type="IN/MemberProfile" data-id="http://www.linkedin.com/in/elizabrock" data-format="inline" data-related="false"></script>
-    </section>
-    <h2>TripIt</h2>
-    <section class="callout">
-      <div id="tripit-badge"><script type="text/javascript" src="https://www.tripit.com/account/badge/id/7F0F8EAE605DC50209765B9DC4EE3700/div_id/tripit-badge/badge.js"></script><noscript><a href="/">TripIt - Organize your travel</a></noscript></div>
-    </section>
-  </section>
-</section>
-<section class="full-column">
-  <h2>Reading</h2>
+<div class="half">
+  <h2>GitHub</h2>
   <section class="callout">
-    {% include good-reads.html %}
+    <iframe src="http://lab.lepture.com/github-cards/card.html?user=elizabrock" frameborder="0" scrolling="0" width="365" height="200" allowtransparency></iframe>
   </section>
-</section>
+  <h2>LinkedIn</h2>
+  <section class="callout">
+    <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="elizabrock"><a class="LI-simple-link" href='https://www.linkedin.com/in/elizabrock?trk=profile-badge'>Eliza Marcum</a></div>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+  </section>
+</div>
+
+<div class="half">
+  <h2>Twitter</h2>
+  <section class="callout">
+    <!-- Maybe TODO Modern Embed, but TBH it's not as good: -->
+    <p>
+      <a href="https://twitter.com/intent/tweet?screen_name=elizabrock&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large" data-dnt="true" data-show-count="false">Tweet to @elizabrock</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </p>
+    <!-- <a class="twitter-timeline" data-dnt="true" data-theme="light" href="https://twitter.com/elizabrock?ref_src=twsrc%5Etfw">Tweets by elizabrock</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+    <a class="twitter-timeline" href="https://twitter.com/elizabrock" data-widget-id="489142233421979648">Tweets by @elizabrock</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </section>
+</div>

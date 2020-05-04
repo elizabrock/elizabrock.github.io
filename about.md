@@ -1,18 +1,24 @@
 ---
 layout: page
-title: About
-page-title: Who Am I? / About Me
+nav-title: About
+title: Who Am I? / About Me
+hide-title: true
 order: 2
 permalink: /about/
 ---
+<!-- TODO: Use aside tag for the right half content in some areas -->
 
-<p>I've prepared a oh-so-serious list of professional skills, and a whimsical list of my life skills below, because the little tidbits are what make up a whole person!</p>
+<section class="low-key">
+  <h1>Who Am I? / About Me</h1>
+  <p>I've been programming since around 2002. I've done a lot of things in that time, including teaching 200+ people how to program, and running my own software business for several years. When I'm not working, I'm usually hanging out with my kiddos (vintage '16 and '19) and/or working on home-tech projects that are interesting to me.</p>
+  <p>Below, I've prepared a oh-so-serious list of professional skills, as well as a whimsical list of my life skills, because the little tidbits are what make up a whole person!</p>
 
-<!-- TODO: Make this into an aside -->
-<p><small>Looking for an official bio? Scroll way, way down!</small></p>
+  <!-- TODO: Make this into an aside? -->
+  <p><small>Looking for an official bio? Scroll way, way down!</small></p>
+</section>
 
-<h2>Informal Bio</h2>
 <section>
+  <h2>Informal Bio</h2>
 	<div class="half">
     <p>I'm a software engineer, with experience in many areas.  I've worked with all sorts of companies and technologies, but my focus in recent years has been on Ruby on Rails, startups and education.</p>
     <p>I play well with others (see image) and I love meeting and working with new people. Nothing gives me more pleasure than learning something new from someone new.</p>
@@ -27,8 +33,8 @@ permalink: /about/
   </div>
 </section>
 
-<h2>Professional Skills:</h2>
 <section>
+  <h2>Professional Skills:</h2>
 	<div class="half">
     <ul>
       <li>Ruby on Rails is my specialty</li>
@@ -45,6 +51,7 @@ permalink: /about/
     </figure>
   </div>
 	<div>
+    <h3>Some of My Skills:</h3>
     <ul id="skill_set">
       <li>Ruby</li>
       <li>Rails</li>
@@ -77,8 +84,8 @@ permalink: /about/
   </div>
 </section>
 
-<h2>(Un?)related Skills:</h2>
 <section>
+  <h2>(Un?)related Skills:</h2>
 	<div class="half">
     <ul>
       <li>Book Editing</li>
@@ -111,8 +118,8 @@ permalink: /about/
   </div>
 </section>
 
-<h2>Top 5 Fears:</h2>
 <section>
+  <h2>Top 5 Fears:</h2>
 	<div class="half">
     <ol>
       <li>Falling off of ladders</li>
@@ -131,8 +138,8 @@ permalink: /about/
   </div>
 </section>
 
-<h2>Formal / Official Bio:</h2>
 <section>
+  <h2>Formal / Official Bio:</h2>
   <!-- TODO: Update this based on what I used for my distinguished young alumni application -->
 
   <p>Eliza Brock is a software engineer and entrepreneur based in Nashville, TN.</p>

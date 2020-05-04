@@ -23,15 +23,15 @@ Run `jekyll serve --watch` in the root of the project.
 1. ✔ Update dependencies
 2. ✔ Set up SEO-friendly redirect from elizabrock.com to elizamarcum.com
 3. ✔ Set up github pages to use elizamarcum.com instead of elizabrock.com
-5. Update markup (\_includes, \_layouts, \*.md)
+5. ✔ Update markup (\_includes, \_layouts, \*.md)
 6. ✔ Add jekyll seo plugin
 7. ✔ Add jekyll sitemap
 8. Set up Google analytics snippet
-9. Update content
-  1. Headshot
-  2. Bio
-  3. Skill list
-  4. Resume
+9. ✔ Update content
+  1. ✔ Headshot
+  2. ✔ Bio
+  3. ✔ Skill list
+  4. ✔ Resume
 6. Styling, from scratch with new color scheme
   * General
   * Don't forget about the 404 page

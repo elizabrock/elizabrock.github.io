@@ -3,7 +3,9 @@ layout: default
 ---
 {% unless page.hide-title %}
   <header class="page-header">
-    <h1 id="page-title">{% if page.page-title %}{{ page.page-title }}{% else %}{{ page.title }}{% endif %}</h1>
+    <h1 id="page-title" itemprop="name headline">
+      {% if page.title %}{{ page.title }}{% else %}{{ page.nav-title }}{% endif %}
+    </h1>
   </header>
 {% endunless %}
 {{ content }}

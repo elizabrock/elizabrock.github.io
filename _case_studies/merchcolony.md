@@ -1,4 +1,5 @@
 ---
+title: "Case Study: MerchColony"
 client_name: MarchColony
 timeline: 2013 - 2016
 logo: merchcolony_logo.png

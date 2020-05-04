@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Current Projects
-hide-title: true
+nav-title: Projects
+title: What Am I Working On Now? / Current Projects
 order: 4
 permalink: /current_projects
 ---
-# What Am I Working On Now? / Current Projects
-
 
 Currently, my biggest project in life is raising my two beloved daughters, Gwen (3 1/2) and Fiona (1).  Outside of work, most of my technology projects revolve around my children, which (in my mind, at least) is as it should be.
 

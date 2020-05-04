@@ -1,4 +1,5 @@
 ---
+title: "Case Study: Sitemason"
 client_name: Sitemason
 client_link: https://www.sitemason.com/
 timeline: 2002 - 2016
