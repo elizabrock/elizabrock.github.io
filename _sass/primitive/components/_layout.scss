@@ -41,9 +41,9 @@ body > footer {
   }
 }
 
-body > main > section {
+body > main > section, body > main > h1 {
   @extend %flex-row;
-  & > h2, & > div {
+  & > h2, & > div, & > nav {
     @extend %flex-cell;
   }
 }
@@ -60,20 +60,20 @@ body > main > section {
 }
 
 body > main > section {
-  // TODO: Find out if this is relevant in 2020
-  // Set a non-alpha background color to soothe IE
-  background-color: $pale;
-  background: $background url('/images/bg-gradient-large-lightest.png') repeat-x top center;
-  border: 1px solid $border-color;
-  border-top: 5px solid $darkred;
-  box-shadow: rgba(0,0,0,0.3) 0 1px 5px;
-  margin-top: -1.5rem; // Snug it up against the heading
-  margin-bottom: 1.5rem;
   padding: $base-font-size;
 
-  p:last-child {
+  & + section.low-key {
+    padding-top: 0;
+  }
+
+  & > h2:first-child {
+    margin-top: 0;
+  }
+
+  & > *:last-child, p:last-child {
     margin-bottom: 0;
   }
+
   img {
     max-width: 100%;
   }
@@ -91,9 +91,22 @@ body > main > section {
     margin-left: 1em;
     list-style-type: decimal;
   }
-  & + section.callout {
-    margin-top: 1em;
-  }
+}
+
+body > main > section:not(.low-key) {
+  // TODO: Find out if this is relevant in 2020
+  // Set a non-alpha background color to soothe IE
+  background-color: $pale;
+  background: $background url('/images/bg-gradient-large-lightest.png') repeat-x top center;
+  border: 1px solid $border-color;
+  border-top: $bold-border;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 5px;
+  margin-top: -1 * $margins; // Snug it up against the heading
+  margin-bottom: $margins;
+  // TODO: Remove this:
+  //& + section {
+  //  margin-top: 1em;
+  //}
 }
 
 
@@ -109,6 +122,41 @@ figure {
 ul {
   margin-left: -1rem;
 }
+
+// Home
+
+section#homepage-hero {
+  .verbiage {
+  }
+  .headshot {
+    img {
+      max-width: 100%;
+      //border: 1px solid $border-color;
+      //border-bottom: $bold-border;
+      //box-shadow: rgba(0,0,0,0.3) 0 1px 5px;
+    }
+  }
+}
+
+@include medium-breakpoint {
+  section#homepage-hero {
+    & > * {
+      flex: 0 0 calc(1 / 2 * 100%);
+    }
+    .verbiage {
+      align-self: flex-end;
+    }
+    .headshot {
+      align-self: stretch;
+      display: flex;
+      img {
+        margin-top: auto;
+      }
+    }
+  }
+}
+
+// About
 
 ul#skill_set {
   list-style-type: none;
@@ -127,5 +175,24 @@ ul#skill_set {
     background-color: $mediumred;
     color: white;
     border-radius: 3px;
+  }
+}
+
+// Portfolio
+
+ul.clients {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  @extend %flex-row;
+  li {
+    @extend %flex-cell;
+    flex: 0 0 calc(1 / 4 * 100%);
+    figcaption {
+      @include screen-reader-text;
+    }
+    img {
+      max-width: 100%;
+    }
   }
 }
