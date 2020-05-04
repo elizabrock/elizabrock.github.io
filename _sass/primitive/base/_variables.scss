@@ -9,7 +9,7 @@
 //==============================================================================
 
 $x-small: 600px !default;
-$small: 750px !default;
+$small: 800px !default;
 $medium: 1000px !default;
 $large: 1200px !default;
 
@@ -26,17 +26,17 @@ $desktop: $medium !default;
 //==============================================================================
 
 $background: white !default;
-$primary-color: #0366ee !default;
-$secondary-color: #29de7d !default;
-$accent-color: #cdcdcd !default;
-$alternate-background: #fafafa !default;
-$alternate-color: #404040 !default;
+$primary-color: #0366ee !default; //A blue color
+$secondary-color: #29de7d !default; //A green color
+$accent-color: #cdcdcd !default; // greyish white
+$alternate-background: mix(white, $light-gray, 75%) !default; // was #fafafa !default; // quite light grey
+$alternate-color: #404040 !default; // medium grey
 $link-color: $primary-color !default;
-$link-hover-color: darken($link-color, 15%) !default;
-$highlight: #ffeea8 !default;
-$error: #d33c40 !default;
-$success: #29de7d !default;
-$bq-border: 16px solid #f0f0f0 !default;
+$link-hover-color: shade($link-color, 25%) !default;
+$highlight: #ffeea8 !default; // yellowish
+$error: #d33c40 !default; // red
+$success: #29de7d !default; // same green as secondary color
+$bq-border: 16px solid #f0f0f0 !default; // light grey
 
 //==============================================================================
 // Typography
@@ -44,20 +44,20 @@ $bq-border: 16px solid #f0f0f0 !default;
 
 // Body
 $font-size: 1rem !default;
-$body-font-size: 1rem !default;
+$body-font-size: 1.5rem !default;
 $font-style: normal !default;
 $font-variant: normal !default;
-$font-weight: normal !default;
-$font-color: #404040 !default;
-$font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
-$line-height: 1.6 !default;
+$font-weight: 300 !default;
+$font-color: #404040 !default; // TODO: in the old design, this would have been #222 - $dark-gray
+$font-family: "ronnia",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
+$line-height: 1.5 !default;
+$input-line-height: 1.15; // NOTE: Same as line-height in my original modifications
 
 // Headings
 $heading-font-color: #404040 !default;
-$heading-font-weight: 600 !default;
-$heading-font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial,
-  sans-serif !default;
-$heading-line-height: 1.2 !default;
+$heading-font-weight: 400 !default; // Default is 600
+$heading-font-family: $font-family;
+$heading-line-height: 1.4 !default;
 
 $h1-mobile: 1.75rem !default;
 $h2-mobile: 1.5rem !default;
@@ -76,7 +76,7 @@ $h5: 1.25rem !default;
 //==============================================================================
 
 $padding: 1rem !default;
-$margins: $base-font-size !default;
+$margins: $body-font-size !default;
 $content-padding: 60px 0 !default;
 $content-padding-mobile: 30px 0 !default;
 
@@ -86,9 +86,10 @@ $content-padding-mobile: 30px 0 !default;
 
 $border-width: 1px !default;
 $border-style: solid !default;
-$border-color: #dedede !default;
-$border-radius: 4px !default;
+$border-color: $light-gray !default;
+$border-radius: 3px !default;
 $borders: $border-width $border-style $border-color !default;
+$bold-borders: 3px $border-style $bold-border-color !default;
 
 //==============================================================================
 // Buttons

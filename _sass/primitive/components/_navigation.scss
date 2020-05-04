@@ -1,3 +1,78 @@
 /*
- * Navigation
+ * Navigation, Specific to elizamarcum.com:
  */
+
+ body {
+   // // TODO: Evaluate this styling from the original site navigation
+   // section#container header#site-header {
+   //   text-align: center;
+   //   nav#site-navigation ul {
+   //     border-top: 1px solid $darkred;
+   //     border-bottom: 1px solid $darkred;
+   //     font-size: 17px;
+   //     line-height: 200%;
+   //     background-color: $basically-transparent;
+   //     li {
+   //       display: inline-block;
+   //       margin-left: 1.1em;
+   //       border-top: 4px solid transparent;
+   //       border-bottom: 4px solid transparent;
+   //       &:hover, &.current {
+   //         border-bottom: 4px solid $darkred;
+   //         a {
+   //           color: lighten($darkred, 40%);
+   //         }
+   //       }
+   //       a {
+   //         text-decoration: none;
+   //         font-weight: normal;
+   //         color: transparentize(#efefef, 0.30);
+   //       }
+   //     }
+   //   }
+   // }
+ }
+
+ $logo-height: 5rem;
+ body > header {
+   @extend .container;
+   max-width: $small;
+   padding-top: 3rem;
+   nav {
+     #logo {
+       height: $logo-height;
+     }
+     ul {
+       list-style-type: none;
+       display: flex;
+       justify-content: left;
+       padding-left: 0;
+       align-items: center;
+       li {
+         display: inline-block;
+         padding-right: 1rem;
+         a {
+         }
+       }
+     }
+   }
+ }
+
+ body > main {
+   @extend .container;
+   max-width: $small;
+ }
+
+ body > footer {
+   @extend .container;
+   max-width: $small;
+   margin-bottom: 1em;
+   text-align: center;
+   nav ul li {
+     display: inline-block;
+   }
+   a {
+     // color: #491918;
+     text-decoration: underline;
+   }
+ }
