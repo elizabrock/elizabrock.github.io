@@ -1,7 +1,7 @@
 ---
 layout: page
 sitemap: false
-title: Style Guide / HTML5 Element Test Page
+title: Style Test Page
 permalink: /style_guide/
 ---
 

@@ -49,14 +49,15 @@ $font-style: normal !default;
 $font-variant: normal !default;
 $font-weight: 300 !default;
 $font-color: #404040 !default; // TODO: in the old design, this would have been #222 - $dark-gray
-$font-family: "ronnia",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
+$font-family: "Metropolis",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
+//$font-family: "ronnia",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
 $line-height: 1.5 !default;
 $input-line-height: 1.15; // NOTE: Same as line-height in my original modifications
 
 // Headings
 $heading-font-color: #404040 !default;
-$heading-font-weight: 400 !default; // Default is 600
-$heading-font-family: $font-family;
+$heading-font-weight: 600 !default; // Default was 600
+$heading-font-family: "Metropolis",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
 $heading-line-height: 1.4 !default;
 
 $h1-mobile: 1.75rem !default;
