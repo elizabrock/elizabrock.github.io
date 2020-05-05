@@ -9,7 +9,7 @@
 //==============================================================================
 
 $x-small: 600px !default;
-$small: 750px !default;
+$small: 800px !default;
 $medium: 1000px !default;
 $large: 1200px !default;
 
@@ -43,18 +43,19 @@ $bq-border: 16px solid #f0f0f0 !default; // light grey
 //==============================================================================
 
 // Body
-$font-size: 1.5rem !default;
-$body-font-size: 1rem !default;
+$font-size: 1rem !default;
+$body-font-size: 1.5rem !default;
 $font-style: normal !default;
 $font-variant: normal !default;
 $font-weight: 300 !default;
 $font-color: #404040 !default; // TODO: in the old design, this would have been #222 - $dark-gray
 $font-family: "ronnia",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
 $line-height: 1.5 !default;
+$input-line-height: 1.15; // NOTE: Same as line-height in my original modifications
 
 // Headings
 $heading-font-color: #404040 !default;
-$heading-font-weight: 400 !default;
+$heading-font-weight: 400 !default; // Default is 600
 $heading-font-family: $font-family;
 $heading-line-height: 1.4 !default;
 
@@ -75,7 +76,7 @@ $h5: 1.25rem !default;
 //==============================================================================
 
 $padding: 1rem !default;
-$margins: 1.5rem !default;
+$margins: $body-font-size !default;
 $content-padding: 60px 0 !default;
 $content-padding-mobile: 30px 0 !default;
 
