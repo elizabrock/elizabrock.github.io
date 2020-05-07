@@ -1,4 +1,5 @@
 ---
+title: "Case Study: iGoDigital"
 client_name: iGoDigital, A Salesforce Company
 timeline: 2012-2013
 logo: iGoDigital_logo.png

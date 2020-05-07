@@ -1,4 +1,5 @@
 ---
+title: "Case Study: SportsHedge"
 client_name: SportsHedge
 timeline: 2012
 logo: sportshedge_logo.png

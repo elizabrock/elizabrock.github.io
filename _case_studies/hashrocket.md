@@ -1,4 +1,5 @@
 ---
+title: "Case Study: Hashrocket"
 client_name: Hashrocket
 client_link: https://hashrocket.com/
 timeline: 2011

@@ -58,6 +58,11 @@
    }
  }
 
+ body > main {
+   @extend .container;
+   max-width: $small;
+ }
+
  body > footer {
    @extend .container;
    max-width: $small;

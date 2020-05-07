@@ -33,6 +33,7 @@ Run `jekyll serve --watch` in the root of the project.
   1. General
   2. 404
 24. Check on TOODs
+26. Run spell check
 1. Google analytics snippet
 2. Sitemap with good updated ats
 14. Look in Google Search Console

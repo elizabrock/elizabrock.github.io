@@ -1,4 +1,5 @@
 ---
+title: "Case Study: NashvillePaw.com"
 client_name: NashvillePaw.com
 timeline: 2011 - 2012
 logo: nashville_paw_logo.png

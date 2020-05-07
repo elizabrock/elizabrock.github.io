@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Portfolio
-hide-title: true
+nav-title: Portfolio
+title: What Have I Done? / Portfolio & Resume
 order: 3
 permalink: /portfolio_and_resume
 ---
 
-# What Have I Done? / Portfolio & Resume
 
 ## Summary / What I Bring To The Table
 

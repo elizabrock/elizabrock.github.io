@@ -1,36 +1,37 @@
 ---
 layout: default
 ---
+<article class="case_study" itemscope itemtype="https://schema.org/Article">
+  <h1 itemprop="name headline">{{ page.title }}</h1>
 
-<h1>Case Study: {{ page.client_name }}</h1>
+  {% if page.client_link %}<a href="{{ page.client_link }}">{% endif %}
+    <img src="/images/portfolio/logos/{{ page.logo }}" alt="{{ page.client_name }} Logo" />
+  {% if page.client_link %}</a>{% endif %}
 
-<a href="{{ page.client_link }}">
-  <img src="/images/portfolio/logos/{{ page.logo }}" alt="{{ page.client_name }} Logo" />
-</a>
+  <h2>About The Client</h2>
 
-<h2>About The Client</h2>
+  {{ page.about }}
 
-{{ page.about }}
+  <h2>Project Goal</h2>
 
-<h2>Project Goal</h2>
+  {{ page.goal }}
 
-{{ page.goal }}
+  <p class="project-timeline">Timeline: {{ page.timeline }}</p>
 
-<p class="project-timeline">Timeline: {{ page.timeline }}</p>
+  <h2>Results</h2>
 
-<h2>Results</h2>
+  {{ page.result }}
 
-{{ page.result }}
+  {% if page.quote %}
+    <blockquote>
+      <p>&#147;{{ page.quote }}&#148;</p>
+      <cite>&mdash; {{ page.quote_attribution }}</cite>
+    </blockquote>
+  {% endif %}
 
-{% if page.quote %}
-  <blockquote>
-    <p>&#147;{{ page.quote }}&#148;</p>
-    <cite>&mdash; {{ page.quote_attribution }}</cite>
-  </blockquote>
-{% endif %}
-
-{% if page.screenshots %}
-  {% for screenshot in page.screenshots %}
-    <img src="/images/portfolio/screenshots/{{ screenshot }}" alt="Screenshot from {{ page.client_name }} project" />
-  {% endfor %}
-{% endif %}
+  {% if page.screenshots %}
+    {% for screenshot in page.screenshots %}
+      <img src="/images/portfolio/screenshots/{{ screenshot }}" alt="Screenshot from {{ page.client_name }} project" itemprop="image" />
+    {% endfor %}
+  {% endif %}
+</article>

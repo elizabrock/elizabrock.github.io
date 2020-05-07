@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact
-page-title: How To Get In Touch
+nav-title: Contact
+title: How To Get In Touch
 hide-title: true
 order: 6
 permalink: /social/
