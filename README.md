@@ -21,15 +21,15 @@ Run `jekyll serve --watch` in the root of the project.
 ## TODO
 
 1. ✔ Update dependencies
-2. Update markup (\_includes, \_layouts, \*.md)
-3. Add jekyll seo plugin
+2. ✔ Update markup (\_includes, \_layouts, \*.md)
+3. ✔ Add jekyll seo plugin
 4. ✔ Add jekyll sitemap
-2. Update content
+5. Update content
   1. ✔ Headshot
-  1. ✔ Bio
-  2. Skill list
-  3. Resume
-0. Styling
+  2. ✔ Bio
+  3. Skill list
+  4. Resume
+6. Styling
   1. General
   2. 404
 24. Check on TOODs
@@ -42,6 +42,10 @@ Run `jekyll serve --watch` in the root of the project.
 11. Set up github pages to use elizamarcum.com
 12. Relaunch personal site
 13. Cancel Squarespace
+14. Update personal URL on:
+  * LinkedIn
+  * GitHub
+  * Twitter
 
 ## Future Improvements
 
