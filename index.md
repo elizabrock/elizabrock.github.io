@@ -3,6 +3,7 @@ layout: page
 title: Home
 hide-title: true
 permalink: /
+image: /images/2018headshot.png
 ---
 # Welcome! I'm Eliza (Brock) Marcum.
 
