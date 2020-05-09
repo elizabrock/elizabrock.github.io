@@ -90,7 +90,8 @@ $border-style: solid !default;
 $border-color: $light-gray !default;
 $border-radius: 3px !default;
 $borders: $border-width $border-style $border-color !default;
-$bold-borders: 3px $border-style $bold-border-color !default;
+$bold-border-width: 3px;
+$bold-borders: $bold-border-width $border-style $bold-border-color !default;
 
 //==============================================================================
 // Buttons

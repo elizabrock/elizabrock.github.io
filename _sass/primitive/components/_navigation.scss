@@ -20,20 +20,25 @@ body > header {
   border-bottom: $bold-borders;
   border-bottom-color: $happyorange;
   nav {
-    a {
-      color: $alternate-font-color;
-    }
     #logo {
       font-weight: 800;
       font-size: 2rem;
-      padding: $global-space 0;
       color: #EFEFEF; // TODO: Matches logo skin color- We'll have to update it with the new logo
       text-align: left;
+      figure {
+        padding: $global-space 0;
+      }
       img, figcaption {
         height: $logo-height;
         vertical-align: middle;
         display: inline;
       }
+      a:hover {
+        text-decoration: none;
+      }
+    }
+    a {
+      color: $alternate-font-color;
     }
     ul {
       list-style-type: none;
@@ -47,7 +52,14 @@ body > header {
         display: inline-block;
         padding-right: 1rem;
         white-space: nowrap;
-        // TODO: Add a really nice underline in the golden yellow color, with text decoration none;
+        a {
+          padding-bottom: $bold-border-width;
+          &:hover {
+            text-decoration: none;
+            border-bottom: $bold-borders;
+            color: $richwhite;
+          }
+        }
       }
     }
   }
