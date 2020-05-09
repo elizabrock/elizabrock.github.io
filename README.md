@@ -24,23 +24,22 @@ Run `jekyll serve --watch` in the root of the project.
 2. ✔ Update markup (\_includes, \_layouts, \*.md)
 3. ✔ Add jekyll seo plugin
 4. ✔ Add jekyll sitemap
-5. Update content
+5. Styling
+  1. General
+  2. 404
+6. Update content
   1. ✔ Headshot
   2. ✔ Bio
   3. Skill list
   4. Resume
-6. Styling
-  1. General
-  2. 404
-24. Check on TOODs
-26. Run spell check
-1. Google analytics snippet
-2. Sitemap with good updated ats
-14. Look in Google Search Console
-3. Update favicon with new blue color (remember favicon.io)
-10. Set up SEO-friendly redirect from elizabrock.com to elizamarcum.com
-11. Set up github pages to use elizamarcum.com
-12. Relaunch personal site
+7. Check on TOODs
+8. Run spell check
+9. Set up Google analytics snippet
+10. Set up Sitemap with good updated ats
+11. Relaunch personal site
+11. ✔ Set up SEO-friendly redirect from elizabrock.com to elizamarcum.com
+12. ✔ Set up github pages to use elizamarcum.com instead of elizabrock.com
+11. Set up SEO-friendly redirect from elizabrocksoftware.com to elizamarcum.com
 13. Cancel Squarespace
 14. Update personal URL on:
   * LinkedIn
@@ -49,4 +48,8 @@ Run `jekyll serve --watch` in the root of the project.
 
 ## Future Improvements
 
+1. Look in Google Search Console
+2. More Styling
+  * Make the nav look better at the in-between sizes
+2. Update favicon with new blue color (remember favicon.io)
 3. Syntax Highlighting?
