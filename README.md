@@ -32,9 +32,9 @@ Run `jekyll serve --watch` in the root of the project.
   2. ✔ Bio
   3. ✔ Skill list
   4. ✔ Resume
-6. Styling, from scratch with new color scheme
-  * General
-  * Don't forget about the 404 page
+6. ✔ Styling, from scratch with new color scheme
+  * ✔ General
+  * ✔ Don't forget about the 404 page
 7. ✔ Perhaps a little rewriting of git history before moving this branch to master
 8. Run spell check
 9. Check on TOODs

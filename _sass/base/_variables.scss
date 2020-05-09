@@ -8,15 +8,23 @@
 // $base-spacing: $line-height * 1; // TODO
 // $small-spacing: $base-spacing / 2; // TODO
 
+$big-space: 2.5rem;
+$global-space: 1.5rem;
+
+// New Colors:
+$richred: #8C4955;
+$richblue: #124673;
+$richwhite: #F2F2E4;
+$happyorange: #D9946C;
+$happyred: #BF6565;
 // Colors
 $mediumred: #A23736;
 $darkred: #6F2625;
 $dark-gray: #222;
-$pale: #f6f0f3; // pinkish white
 
-$bold-border-color: transparentize($darkred, 0.25);
-$basically-transparent: transparentize(#fff, 0.95);
-$transparent-pale: transparentize($pale, 0.03);
+$bold-border-color: $happyred; //transparentize($richblue, 0.25);
+$somewhat-transparent: transparentize(#fff, 0.25); // TODO: fff should be $alternate-background
+$basically-transparent: transparentize(#fff, 0.95); // TODO: fff should be $alternate-background
 
 $blue: #1565c0;
 $medium-gray: #999;

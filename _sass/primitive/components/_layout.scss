@@ -2,10 +2,12 @@
  * Layout, Specific to elizamarcum.com:
  */
 
-body > main > section, body > main > h1 {
-  @extend %flex-row;
-  & > h2, & > div, & > nav {
-    @extend %flex-cell;
+body > main, body > main > article {
+  & > section, & > h1 {
+    @extend %flex-row;
+    & > div, & > nav, & > h2:first-child {
+      @extend %flex-cell;
+    }
   }
 }
 
@@ -20,15 +22,21 @@ body > main > section, body > main > h1 {
   }
 }
 
-body > main > section {
-  padding: 1.5rem;
+body > main > section, body > main > article > section {
+  padding: $content-padding-mobile;
+  background-color: $alternate-background;
 
-  & + section.low-key {
-    padding-top: 0;
+  &:last-child {
+    margin-bottom: 0;
   }
 
-  & > h2:first-child {
-    margin-top: 0;
+  & + section {
+    margin-top: $big-space;
+  }
+
+  // I honestly have no idea what the deal is here:
+  & + section.low-key {
+    padding-top: 0;
   }
 
   & > *:last-child, p:last-child {
@@ -54,24 +62,38 @@ body > main > section {
   }
 }
 
-body > main > section:not(.low-key) {
-  // TODO: Find out if this is relevant in 2020
-  // Set a non-alpha background color to soothe IE
-  background-color: $pale;
-  background: $background url('/images/bg-gradient-large-lightest.png') repeat-x top center;
-  border: 1px solid $bold-border-color;
-  border-top: $bold-borders;
-  box-shadow: rgba(0,0,0,0.3) 0 1px 5px;
-  margin-top: -1 * $margins; // Snug it up against the heading
-  margin-bottom: $margins;
-  // TODO: Remove this:
-  //& + section {
-  //  margin-top: 1em;
-  //}
+@include small-breakpoint {
+  body > main > section, body > main > article > section {
+    padding: $content-padding-mobile;
+  }
+}
+
+body > main, body > main > article {
+  & > section:not(.low-key) {
+    // TODO: Find out if this is relevant in 2020
+    // Set a non-alpha background color to soothe IE
+    background-color: $alternate-background; //$somewhat-transparent;
+    //background: transparentize($alternate-background, .9) url('/images/bg-gradient-large-lightest.png') repeat-x top center;
+    border: 1px solid $bold-border-color;
+    border-top: $bold-borders;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 5px;
+
+    margin-top: $big-space + $h2;
+    margin-bottom: $margins;
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      color: $alternate-font-color;
+      margin-top: -1 * ($h2 + 1.6rem); // TODO: Adjust for small h2 size on mobile
+      margin-left: -1 * $global-space;
+    }
+  }
 }
 
 
-// Assorted
+// Assorted TODO: Move all of these somewhere else that makes sense
 
 figure {
   &.to-right {
@@ -80,13 +102,11 @@ figure {
   }
 }
 
-ul {
-  margin-left: -1rem;
-}
-
 // Home
 
-section#homepage-hero {
+#homepage-hero {
+  display: flex;
+  margin-bottom: 1.5rem;
   .verbiage {
   }
   .headshot {
@@ -100,8 +120,8 @@ section#homepage-hero {
 }
 
 @include medium-breakpoint {
-  section#homepage-hero {
-    & > * {
+  #homepage-hero {
+    & > div {
       flex: 0 0 calc(1 / 2 * 100%);
     }
     .verbiage {
@@ -143,12 +163,13 @@ ul#skill_set {
 
 ul.clients {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   @extend %flex-row;
+  align-items: center;
   li {
     @extend %flex-cell;
     flex: 0 0 calc(1 / 4 * 100%);
+    padding-right: 1em;
     figcaption {
       @include screen-reader-text;
     }

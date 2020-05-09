@@ -25,12 +25,11 @@ $desktop: $medium !default;
 // Global Colors
 //==============================================================================
 
-$background: white !default;
+$background: $richblue !default;
 $primary-color: #0366ee !default; //A blue color
 $secondary-color: #29de7d !default; //A green color
 $accent-color: #cdcdcd !default; // greyish white
-$alternate-background: mix(white, $light-gray, 75%) !default; // was #fafafa !default; // quite light grey
-$alternate-color: #404040 !default; // medium grey
+$alternate-background: white;
 $link-color: $primary-color !default;
 $link-hover-color: shade($link-color, 25%) !default;
 $highlight: #ffeea8 !default; // yellowish
@@ -49,6 +48,7 @@ $font-style: normal !default;
 $font-variant: normal !default;
 $font-weight: 300 !default;
 $font-color: #404040 !default; // TODO: in the old design, this would have been #222 - $dark-gray
+$alternate-font-color: white;
 $font-family: "Metropolis",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
 //$font-family: "ronnia",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
 $line-height: 1.5 !default;
@@ -58,7 +58,7 @@ $input-line-height: 1.15; // NOTE: Same as line-height in my original modificati
 $heading-font-color: #404040 !default;
 $heading-font-weight: 600 !default; // Default was 600
 $heading-font-family: "Metropolis",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
-$heading-line-height: 1.4 !default;
+$heading-line-height: 1 !default;
 
 $h1-mobile: 1.75rem !default;
 $h2-mobile: 1.5rem !default;
@@ -76,10 +76,10 @@ $h5: 1.25rem !default;
 // Spacing
 //==============================================================================
 
-$padding: 1rem !default;
-$margins: $body-font-size !default;
-$content-padding: 60px 0 !default;
-$content-padding-mobile: 30px 0 !default;
+$padding: $global-space !default;
+$margins: $global-space !default;
+$content-padding: $big-space;
+$content-padding-mobile: $global-space;
 
 //==============================================================================
 // Borders
@@ -90,7 +90,8 @@ $border-style: solid !default;
 $border-color: $light-gray !default;
 $border-radius: 3px !default;
 $borders: $border-width $border-style $border-color !default;
-$bold-borders: 3px $border-style $bold-border-color !default;
+$bold-border-width: 3px;
+$bold-borders: $bold-border-width $border-style $bold-border-color !default;
 
 //==============================================================================
 // Buttons
