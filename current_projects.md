@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: simple_page
 nav-title: Projects
 title: What Am I Working On Now? / Current Projects
 order: 4
