@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: simple_page
 nav-title: Contact
 title: How To Get In Touch
 hide-title: true
@@ -8,6 +8,7 @@ permalink: /social/
 ---
 
 <!-- TODO: Change this permalink to be /contact and set up a redirect from /social -->
+<!-- TODO: Have these be individual sections against the dark background -->
 
 <div class="half">
   <h2>GitHub</h2>
