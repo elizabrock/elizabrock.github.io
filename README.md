@@ -21,12 +21,8 @@ Run `jekyll serve --watch` in the root of the project.
 ## 2020 Personal Site Updates TODO
 
 1. ✔ Update dependencies
-2. Set up SEO-friendly redirect from elizabrock.com to elizamarcum.com
-3. Set up github pages to use elizamarcum.com instead of elizabrock.com
-4. Update personal URL on:
-  * LinkedIn
-  * GitHub
-  * Twitter
+2. ✔ Set up SEO-friendly redirect from elizabrock.com to elizamarcum.com
+3. ✔ Set up github pages to use elizamarcum.com instead of elizabrock.com
 5. Update markup (\_includes, \_layouts, \*.md)
 6. Add jekyll seo plugin
 7. Add jekyll sitemap
@@ -45,6 +41,10 @@ Run `jekyll serve --watch` in the root of the project.
 10. Eliminate unused CSS variables
 11. Remove commented out CSS
 12. Relaunch personal site (by pushing this branch to master)
+4. Update personal URL on:
+  * LinkedIn
+  * GitHub
+  * Twitter
 13. Refine the merely acceptable status of the design implementation:
   *  Have navigation mark the current section
 14. Set up SEO-friendly redirect from elizabrocksoftware.com to elizamarcum.com
