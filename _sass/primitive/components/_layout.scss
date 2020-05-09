@@ -4,7 +4,7 @@
 
 body > main > section, body > main > h1 {
   @extend %flex-row;
-  & > div, & > nav {
+  & > div, & > nav, & > h2:first-child {
     @extend %flex-cell;
   }
 }
@@ -22,7 +22,17 @@ body > main > section, body > main > h1 {
 
 body > main > section {
   padding: $content-padding-mobile;
+  background-color: $alternate-background;
 
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  & + section {
+    margin-top: $big-space;
+  }
+
+  // I honestly have no idea what the deal is here:
   & + section.low-key {
     padding-top: 0;
   }
@@ -59,21 +69,27 @@ body > main > section {
 body > main > section:not(.low-key) {
   // TODO: Find out if this is relevant in 2020
   // Set a non-alpha background color to soothe IE
-  background-color: $pale;
-  background: $background url('/images/bg-gradient-large-lightest.png') repeat-x top center;
+  background-color: $alternate-background; //$somewhat-transparent;
+  //background: transparentize($alternate-background, .9) url('/images/bg-gradient-large-lightest.png') repeat-x top center;
   border: 1px solid $bold-border-color;
   border-top: $bold-borders;
   box-shadow: rgba(0,0,0,0.3) 0 1px 5px;
-  margin-top: -1 * $margins; // Snug it up against the heading
+
+  margin-top: $big-space + $h2;
   margin-bottom: $margins;
-  // TODO: Remove this:
-  //& + section {
-  //  margin-top: 1em;
-  //}
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    color: $alternate-font-color;
+    margin-top: -1 * ($h2 + 1.6rem); // TODO: Adjust for small h2 size on mobile
+    margin-left: -1 * $global-space;
+  }
 }
 
 
-// Assorted
+// Assorted TODO: Move all of these somewhere else that makes sense
 
 figure {
   &.to-right {

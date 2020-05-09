@@ -8,7 +8,7 @@ body {
   // Option A: background-image: url(https://www.transparenttextures.com/patterns/stardust.png);
   // Option B: background-image: url(https://www.transparenttextures.com/patterns/brilliant.png);
   main {
-    background-color: $alternate-background;
+    //background-color: $alternate-background;
   }
 }
 
@@ -88,7 +88,7 @@ body > main {
 body > footer {
   @extend .container;
   max-width: $small;
-  margin-bottom: 1em;
+  padding: $big-space 0;
   border-top: $bold-borders;
   border-top-color: $happyorange;
   text-align: center;
@@ -98,6 +98,7 @@ body > footer {
   }
   h5 {
     color: $alternate-font-color;
+    margin: 0;
   }
   a {
     color: $alternate-font-color;

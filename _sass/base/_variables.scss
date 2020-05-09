@@ -21,11 +21,10 @@ $happyred: #BF6565;
 $mediumred: #A23736;
 $darkred: #6F2625;
 $dark-gray: #222;
-$pale: #f6f0f3; // pinkish white
 
 $bold-border-color: $happyred; //transparentize($richblue, 0.25);
-$basically-transparent: transparentize(#fff, 0.95);
-$transparent-pale: transparentize($pale, 0.03);
+$somewhat-transparent: transparentize(#fff, 0.25); // TODO: fff should be $alternate-background
+$basically-transparent: transparentize(#fff, 0.95); // TODO: fff should be $alternate-background
 
 $blue: #1565c0;
 $medium-gray: #999;
