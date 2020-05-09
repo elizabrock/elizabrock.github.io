@@ -2,14 +2,16 @@
 layout: page
 nav-title: About
 title: Who Am I? / About Me
+hide-title: true
 order: 2
 permalink: /about/
 ---
-
-TODO: Use aside tag for the right half content in some areas
+<!-- TODO: Use aside tag for the right half content in some areas -->
 
 <section class="low-key">
-  <p>I've prepared a oh-so-serious list of professional skills, and a whimsical list of my life skills below, because the little tidbits are what make up a whole person!</p>
+  <h1>Who Am I? / About Me</h1>
+  <p>I've been programming since around 2002. I've done a lot of things in that time, including teaching 200+ people how to program, and running my own software business for several years. When I'm not working, I'm usually hanging out with my kiddos (vintage '16 and '19) and/or working on home-tech projects that are interesting to me.</p>
+  <p>Below, I've prepared a oh-so-serious list of professional skills, as well as a whimsical list of my life skills, because the little tidbits are what make up a whole person!</p>
 
   <!-- TODO: Make this into an aside? -->
   <p><small>Looking for an official bio? Scroll way, way down!</small></p>

@@ -4,7 +4,7 @@
 
 body > main > section, body > main > h1 {
   @extend %flex-row;
-  & > h2, & > div, & > nav {
+  & > div, & > nav {
     @extend %flex-cell;
   }
 }
@@ -21,14 +21,10 @@ body > main > section, body > main > h1 {
 }
 
 body > main > section {
-  padding: 1.5rem;
+  padding: $content-padding-mobile;
 
   & + section.low-key {
     padding-top: 0;
-  }
-
-  & > h2:first-child {
-    margin-top: 0;
   }
 
   & > *:last-child, p:last-child {
@@ -51,6 +47,12 @@ body > main > section {
   ol {
     margin-left: 1em;
     list-style-type: decimal;
+  }
+}
+
+@include small-breakpoint {
+  body > main > section {
+    padding: $content-padding-mobile;
   }
 }
 
@@ -80,13 +82,11 @@ figure {
   }
 }
 
-ul {
-  margin-left: -1rem;
-}
-
 // Home
 
-section#homepage-hero {
+#homepage-hero {
+  display: flex;
+  margin-bottom: 1.5rem;
   .verbiage {
   }
   .headshot {
@@ -100,8 +100,8 @@ section#homepage-hero {
 }
 
 @include medium-breakpoint {
-  section#homepage-hero {
-    & > * {
+  #homepage-hero {
+    & > div {
       flex: 0 0 calc(1 / 2 * 100%);
     }
     .verbiage {

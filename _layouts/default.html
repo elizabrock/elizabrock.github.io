@@ -15,15 +15,13 @@
     <body>
         <header>
           <nav>
+            <a href="{{ site.baseurl }}/">
+              <figure id="logo">
+                <img src="/images/elizabrockicon.png" alt="Eliza Brock Marcum Icon" />
+                <figcaption>Eliza Marcum</figcaption>
+              </figure>
+            </a>
             <ul>
-              <li>
-                <a href="{{ site.baseurl }}/">
-                  <figure>
-                    <img src="/images/elizabrockicon.png" id="logo" alt="Eliza Brock Marcum Icon" />
-                    <figcaption class="screen-reader-text">Eliza Marcum Home</figcaption>
-                  </figure>
-                </a>
-              </li>
               {% assign sorted_pages = site.pages | sort:"order" %}
               {% for my_page in sorted_pages %}
                 {% if my_page.order %}

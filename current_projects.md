@@ -1,6 +1,6 @@
 ---
 layout: page
-nav-title: Current Projects
+nav-title: Projects
 title: What Am I Working On Now? / Current Projects
 order: 4
 permalink: /current_projects

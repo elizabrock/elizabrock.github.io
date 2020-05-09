@@ -44,14 +44,14 @@ h2,
 h3,
 h4,
 h5 {
-  margin: $margins 0;
+  margin: 0 0 $margins 0;
   font-weight: $heading-font-weight;
   font-family: $heading-font-family;
   line-height: $heading-line-height;
   color: $heading-font-color;
 
   &:not(:first-child) {
-    margin: $margins 0;
+    // margin: $margins 0;
   }
 }
 
@@ -219,7 +219,6 @@ dd {
 // Container
 .container {
   max-width: $large;
-  padding: 0 $padding;
   margin-left: auto;
   margin-right: auto;
 }
@@ -234,15 +233,4 @@ dd {
 .medium-container {
   @extend .container;
   max-width: $medium;
-}
-
-// Content
-.content-section {
-  padding: $content-padding-mobile;
-}
-
-@include small-breakpoint {
-  .content-section {
-    padding: $content-padding;
-  }
 }

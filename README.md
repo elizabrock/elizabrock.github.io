@@ -33,6 +33,9 @@ Run `jekyll serve --watch` in the root of the project.
   3. Skill list
   4. Resume
 7. Check on TOODs
+8. Eliminate unused variables
+10. Remove commented out CSS
+9. Perhaps a little rewriting of git history before moving this branch to master
 8. Run spell check
 9. Set up Google analytics snippet
 10. Set up Sitemap with good updated ats
