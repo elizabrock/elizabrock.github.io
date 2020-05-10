@@ -35,7 +35,7 @@ $link-hover-color: shade($link-color, 25%) !default;
 $highlight: #ffeea8 !default; // yellowish
 $error: #d33c40 !default; // red
 $success: #29de7d !default; // same green as secondary color
-$bq-border: 16px solid #f0f0f0 !default; // light grey
+$bq-border: 16px solid #f0f0f0 !default; // light grey // TODO: Modify this value
 
 //==============================================================================
 // Typography
@@ -47,16 +47,15 @@ $body-font-size: 1.5rem !default;
 $font-style: normal !default;
 $font-variant: normal !default;
 $font-weight: 300 !default;
-$font-color: #404040 !default; // TODO: in the old design, this would have been #222 - $dark-gray
+$font-color: #404040 !default;
 $alternate-font-color: white;
 $font-family: "Metropolis",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
-//$font-family: "ronnia",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
 $line-height: 1.5 !default;
 $input-line-height: 1.15; // NOTE: Same as line-height in my original modifications
 
 // Headings
 $heading-font-color: #404040 !default;
-$heading-font-weight: 600 !default; // Default was 600
+$heading-font-weight: 600 !default;
 $heading-font-family: "Metropolis",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
 $heading-line-height: 1 !default;
 
@@ -76,10 +75,10 @@ $h5: 1.25rem !default;
 // Spacing
 //==============================================================================
 
-$padding: $global-space !default;
-$margins: $global-space !default;
+$padding: $base-space !default;
+$margins: $base-space !default;
 $content-padding: $big-space;
-$content-padding-mobile: $global-space;
+$content-padding-mobile: $base-space;
 
 //==============================================================================
 // Borders
@@ -90,6 +89,7 @@ $border-style: solid !default;
 $border-color: $light-gray !default;
 $border-radius: 3px !default;
 $borders: $border-width $border-style $border-color !default;
+$bold-border-color: $happyred;
 $bold-border-width: 3px;
 $bold-borders: $bold-border-width $border-style $bold-border-color !default;
 

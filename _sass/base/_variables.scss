@@ -3,31 +3,19 @@
  * from previous incarnations of this site.
  */
 
-// Other Sizes TODO: Remove
-// $line-height: 1.5rem; //Duplicate
-// $base-spacing: $line-height * 1; // TODO
-// $small-spacing: $base-spacing / 2; // TODO
-
 $big-space: 2.5rem;
-$global-space: 1.5rem;
+$base-space: 1.5rem;
 
-// New Colors:
+// New "Brand" Colors:
 $richred: #8C4955;
 $richblue: #124673;
 $richwhite: #F2F2E4;
 $happyorange: #D9946C;
 $happyred: #BF6565;
-// Colors
+// Old Brand Colors:
 $mediumred: #A23736;
-$darkred: #6F2625;
-$dark-gray: #222;
-
-$bold-border-color: $happyred; //transparentize($richblue, 0.25);
-$somewhat-transparent: transparentize(#fff, 0.25); // TODO: fff should be $alternate-background
-$basically-transparent: transparentize(#fff, 0.95); // TODO: fff should be $alternate-background
-
-$blue: #1565c0;
-$medium-gray: #999;
+$somewhat-transparent: transparentize(#fff, 0.25); // TODO: The #fff here should be $alternate-background
+$basically-transparent: transparentize(#fff, 0.95); // TODO: The #fff here should be $alternate-background
 $light-gray: #ddd;
 
 // Animations

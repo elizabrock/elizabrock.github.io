@@ -1,0 +1,180 @@
+/**
+ * Layout, Specific to elizamarcum.com:
+ */
+
+body > main, body > main > article {
+  & > section:not(.simple_page), & > h1 {
+    @extend %flex-row;
+    & > div, & > nav, & > h2:first-child {
+      @extend %flex-cell;
+    }
+  }
+}
+
+@include small-breakpoint {
+  body > main > section > div {
+    @include flex-breakpoints;
+  }
+}
+@include large-breakpoint {
+  body > main > section > div {
+    @include flex-breakpoints;
+  }
+}
+
+body > main > section, body > main > article > section {
+  padding: $content-padding-mobile;
+  background-color: $alternate-background;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  & + section {
+    margin-top: $big-space;
+  }
+
+  // I honestly have no idea what the deal is here:
+  & + section.low-key {
+    padding-top: 0;
+  }
+
+  & > *:last-child, p:last-child {
+    margin-bottom: 0;
+  }
+
+  img {
+    max-width: 100%;
+  }
+  ul {
+    list-style-type: disc;
+    &.two-up {
+      list-style-type: none;
+      li {
+        width: 48%;
+        display: inline-block;
+      }
+    }
+  }
+  ol {
+    margin-left: 1em;
+    list-style-type: decimal;
+  }
+}
+
+@include small-breakpoint {
+  body > main > section, body > main > article > section {
+    padding: $content-padding-mobile;
+  }
+}
+
+body > main, body > main > article {
+  & > section:not(.low-key) {
+    // TODO: Find out if this is relevant in 2020
+    // Set a non-alpha background color to soothe IE
+    background-color: $alternate-background; //$somewhat-transparent;
+    //background: transparentize($alternate-background, .9) url('/images/bg-gradient-large-lightest.png') repeat-x top center;
+    border: 1px solid $bold-border-color;
+    border-top: $bold-borders;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 5px;
+
+    margin-top: $big-space + $h2;
+    margin-bottom: $margins;
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    & > h2:first-child {
+      color: $alternate-font-color;
+      margin-top: -1 * ($h2 + 1.6rem); // TODO: Adjust for small h2 size on mobile
+      margin-left: -1 * $base-space;
+    }
+  }
+}
+
+
+// Assorted TODO: Move all of these somewhere else that makes sense
+
+figure {
+  &.to-right {
+    max-width: 50%;
+    float: right;
+  }
+}
+
+// Home
+
+#homepage-hero {
+  display: flex;
+  margin-bottom: 1.5rem;
+  .verbiage {
+  }
+  .headshot {
+    img {
+      max-width: 100%;
+      //border: 1px solid $bold-border-color;
+      //border-bottom: $bold-border;
+      //box-shadow: rgba(0,0,0,0.3) 0 1px 5px;
+    }
+  }
+}
+
+@include medium-breakpoint {
+  #homepage-hero {
+    & > div {
+      flex: 0 0 calc(1 / 2 * 100%);
+    }
+    .verbiage {
+      align-self: flex-end;
+    }
+    .headshot {
+      align-self: stretch;
+      display: flex;
+      img {
+        margin-top: auto;
+      }
+    }
+  }
+}
+
+// About
+
+ul#skill_set {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    white-space: nowrap;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1;
+    position: relative;
+    padding: 0.20833em 0.5em 0.25em;
+    margin-bottom: 0.15em;
+    background-color: $mediumred;
+    color: white;
+    border-radius: 3px;
+  }
+}
+
+// Portfolio
+
+ul.clients {
+  list-style-type: none;
+  padding: 0;
+  @extend %flex-row;
+  align-items: center;
+  li {
+    @extend %flex-cell;
+    flex: 0 0 calc(1 / 4 * 100%);
+    padding-right: 1em;
+    figcaption {
+      @include screen-reader-text;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+}

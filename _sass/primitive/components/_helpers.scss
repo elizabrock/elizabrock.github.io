@@ -114,6 +114,7 @@
 .align-center {
   align-items: center;
 }
+// ^ TODO: Comment these out since I don't use the non-semantic styling options
 
 // Screen reader text for accessibility
 @mixin screen-reader-text {

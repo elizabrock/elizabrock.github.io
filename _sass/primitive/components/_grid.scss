@@ -16,7 +16,7 @@ $margin-bottom: 0rem;
   margin-right: -$column-padding;
 }
 
-// TODO: Contribute back:
+// TODO: Contribute these tweaks back to the primitive project:
 
 %flex-row {
   @extend %row-margin;
@@ -48,7 +48,7 @@ $margin-bottom: 0rem;
   &.half {
     flex: 0 0 calc(1 / 2 * 100%);
     & + .half {
-      padding-left: $global-space;
+      padding-left: $base-space;
     }
   }
   &.one-fourth {
