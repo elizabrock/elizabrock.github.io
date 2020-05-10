@@ -121,11 +121,17 @@
   align-items: center;
 }
 
+// TODO: Contribute these tweaks back to the primitive project:
+
 // Screen reader text for accessibility
-.screen-reader-text {
+@mixin screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
   height: 1px;
   width: 1px;
   overflow: hidden;
+}
+
+.screen-reader-text {
+  @include screen-reader-text;
 }

@@ -4,6 +4,7 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base/variables";
 @import "base/fonts";
-@import "primitive/main";
+@import "vendor/primitive/main";
+@import "base/element_styling";
 @import "base/navigation";
 @import "base/layout";

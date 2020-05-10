@@ -1,0 +1,32 @@
+// Overriding some things from Primitive:
+
+p, ol, ul, dl, table {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0 0 $margins 0;
+  &:not(:first-child) {
+    margin: $margins 0;
+  }
+}
+
+a {
+  // TODO: I'm not sure this even does anything:
+  transition: color $base-duration $base-timing;
+}
+
+blockquote {
+  font-size: $body-font-size;
+}
+
+hr {
+  border-top: $bold-borders;
+  margin: $line-height 0;
+}
+
+// Specific styling for elizamarcum.com:
+
+// TODO: Move element styling out of the layout file and over to here

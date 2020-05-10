@@ -21,3 +21,47 @@ $light-gray: #ddd;
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
+
+//==============================================================================
+// Primitive Specific Variables:
+//==============================================================================
+
+// Global Colors
+
+$background: $richblue;
+$alternate-background: white;
+$primary-color: #0366ee; // The default from Primitive
+$link-color: $primary-color; // The default from Primitive
+$link-hover-color: shade($link-color, 25%);
+$bq-border: 16px solid #f0f0f0; // light grey // TODO: Modify this value
+
+// Typography > Body
+
+$body-font-size: 1.5rem;
+$font-weight: 300 !default;
+$alternate-font-color: white;
+$font-family: "Metropolis",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+$line-height: 1.5;
+
+// Typography > Headings
+
+$heading-font-family: "Metropolis",-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+$heading-line-height: 1.2;
+
+$padding: $base-space;
+$margins: $base-space;
+$content-padding: $big-space;
+$content-padding-mobile: $base-space;
+
+// Borders
+
+$border-color: $light-gray;
+$border-radius: 3px;
+$bold-border-color: $happyred;
+$bold-border-width: 3px;
+$bold-borders: $bold-border-width solid $bold-border-color;
+
+// Grid
+
+$column-padding: 0rem;
+$margin-bottom: 0rem;

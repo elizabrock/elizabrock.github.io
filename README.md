@@ -43,7 +43,7 @@ Run `jekyll serve --watch` in the root of the project.
   * ✔ Don't forget about the 404 page
 7. ✔ Perhaps a little rewriting of git history before moving this branch to master
 8. ✔ Run spell check
-10. Move Primitive to the vendor folder
+10. ✔ Move Primitive to the vendor folder
 9. Check on TODOs
 10. Eliminate unused CSS variables
 11. Remove commented out CSS
