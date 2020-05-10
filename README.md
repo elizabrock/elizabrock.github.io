@@ -36,6 +36,7 @@ Run `jekyll serve --watch` in the root of the project.
 8. Eliminate unused variables
 10. Remove commented out CSS
 9. Perhaps a little rewriting of git history before moving this branch to master
+10. Have navigation mark the current section
 8. Run spell check
 9. Set up Google analytics snippet
 10. Set up Sitemap with good updated ats
@@ -48,6 +49,7 @@ Run `jekyll serve --watch` in the root of the project.
   * LinkedIn
   * GitHub
   * Twitter
+15. Take a final pass at my resume to be sure it includes all the cool stuff from my website
 
 ## Future Improvements
 
