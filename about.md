@@ -57,13 +57,13 @@ permalink: /about/
       <li>Rails</li>
       <li>HTML5</li>
       <li>CSS3</li>
-      <li>Javascript</li>
+      <li>JavaScript</li>
       <li>Project Management</li>
       <li>Lisp</li>
       <li>Agile</li>
       <li>User Experience</li>
       <li>Pair Programming</li>
-      <li>Rspec</li>
+      <li>RSpec</li>
       <li>Cucumber</li>
       <li>Continuous Integration</li>
       <li>Teaching</li>
@@ -73,7 +73,7 @@ permalink: /about/
       <li>PHP</li>
       <li>Linux</li>
       <li>MySQL</li>
-      <li>Postgres</li>
+      <li>PostgreSQL</li>
       <li>Test Driven Development</li>
       <li>Software Design</li>
       <li>Java</li>
@@ -124,7 +124,7 @@ permalink: /about/
     <ol>
       <li>Falling off of ladders</li>
       <li>Stingrays</li>
-      <li>Micromanagment</li>
+      <li>Micromanagement</li>
       <li>Cave Crickets</li>
       <li>Suddenly having my power cord jerked out</li>
     </ol>
@@ -146,7 +146,7 @@ permalink: /about/
 
   <p>She has a background in software engineering with a focus on web applications and engineering management. She holds a bachelors degree in Software Engineering and Computer Science with a domain track in Engineering Management from Rose-Hulman Institute of Technology.</p>
 
-  <p>Eliza has been, among other things: the sole developer of a mobile device service infrastructure and payment system, lead developer for a fashion ecommerce startup, and the sole technologist for several Tennessee startups.</p>
+  <p>Eliza has been, amongst other things: the sole developer of a mobile device service infrastructure and payment system, lead developer for a fashion eCommerce startup, and the sole technologist for several Tennessee startups.</p>
 
   <p>She ran a software consultancy, Eliza Brock Software from 2010 until 2014, growing it to 6 full-time developers, all specializing in web application development.</p>
 

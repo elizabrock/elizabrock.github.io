@@ -13,6 +13,12 @@ You may need to `gem install bundler` if the `bundle` command is unavailable.
 
 Run `jekyll serve --watch` in the root of the project.
 
+## Spell Checking
+
+1. `brew install aspell`
+2. `for f in **/*.md; do aspell check $f; done`
+3. `for f in *.html; do aspell check $f; done`
+4. `for f in **/*.html; do aspell check $f; done`
 
 ## Deploying
 
@@ -22,10 +28,10 @@ Run `jekyll serve --watch` in the root of the project.
 
 1. ✔ Update dependencies
 2. ✔ Set up SEO-friendly redirect from elizabrock.com to elizamarcum.com
-3. ✔ Set up github pages to use elizamarcum.com instead of elizabrock.com
+3. ✔ Set up GitHub pages to use elizamarcum.com instead of elizabrock.com
 5. ✔ Update markup (\_includes, \_layouts, \*.md)
-6. ✔ Add jekyll seo plugin
-7. ✔ Add jekyll sitemap
+6. ✔ Add Jekyll SEO plugin
+7. ✔ Add Jekyll sitemap
 8. ✔ Set up Google analytics snippet
 9. ✔ Update content
   1. ✔ Headshot
@@ -36,7 +42,7 @@ Run `jekyll serve --watch` in the root of the project.
   * ✔ General
   * ✔ Don't forget about the 404 page
 7. ✔ Perhaps a little rewriting of git history before moving this branch to master
-8. Run spell check
+8. ✔ Run spell check
 10. Move Primitive to the vendor folder
 9. Check on TODOs
 10. Eliminate unused CSS variables
@@ -57,7 +63,7 @@ Run `jekyll serve --watch` in the root of the project.
 
 ## Future Improvements
 
-1. Try implementing the skill chart I protoyped here: https://docs.google.com/spreadsheets/d/1-uCwT-ZM0ja8sknY5MjIQfv_uhB6QSa7uFVcxWzDC1c/edit#gid=0
+1. Try implementing the skill chart I prototyped here: https://docs.google.com/spreadsheets/d/1-uCwT-ZM0ja8sknY5MjIQfv_uhB6QSa7uFVcxWzDC1c/edit#gid=0
 1. Look in Google Search Console
 2. More Styling
   * Make the nav look better at the in-between sizes

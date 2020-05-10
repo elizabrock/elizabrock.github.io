@@ -19,7 +19,7 @@ permalink: /students/
     <li><a href="http://tryruby.org/levels/1/challenges/0">TryRuby</a></li>
     <li><a href="http://rubykoans.com/">Ruby Koans</a></li>
     <li><a href="http://www.html5rocks.com/en/">HTML 5 Rocks</a></li>
-    <li><a href="https://github.com/mrdavidlaing/javascript-koans">Javascript Koans</a></li>
+    <li><a href="https://github.com/mrdavidlaing/javascript-koans">JavaScript Koans</a></li>
     <li><a href="http://railsforzombies.org/">Rails for Zombies</a></li>
   </ul>
 </section>

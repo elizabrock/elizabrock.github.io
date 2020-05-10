@@ -67,7 +67,7 @@ permalink: /portfolio_and_resume
   <h3>What My Clients Say:</h3>
 
   <blockquote>
-    <p>&#147;Eliza Brock Software was instrumental in helping to extend our products to mid market customers. She and her team are knowledgable, hard working, and well organized. At times we put extraordinary pressure on her team to meet fairly unreasonable deadlines, and each time they buckled down and came through for us. Eliza’s approach to project management, software architecture, and user behavior driven development result in best-of-breed web applications.&#148;</p>
+    <p>&#147;Eliza Brock Software was instrumental in helping to extend our products to mid market customers. She and her team are knowledgeable, hard working, and well organized. At times we put extraordinary pressure on her team to meet fairly unreasonable deadlines, and each time they buckled down and came through for us. Eliza’s approach to project management, software architecture, and user behavior driven development result in best-of-breed web applications.&#148;</p>
     <cite>&mdash; Rick Thomas, iGoDigital (now Salesforce)</cite>
   </blockquote>
   <blockquote>

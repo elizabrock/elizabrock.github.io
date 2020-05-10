@@ -10,9 +10,9 @@ about: |
 goal: |
   iGoDigital connected with us to help them perform a post-mortem on a skunkworks project.
 result: |
-  I worked with iGoDigital to perform an initial post-mortem on a skunkworks project. They then engaged us (my company and I) to plan and execute on a new product, [Guided Selling Tools](https://www.youtube.com/watch?v=Qb4AAI_1GzE), based on our findings from the post-morten.  Once that new product was completed, we continued to work with iGoDigital to integrate all of their existing products into a single interface.
+  I worked with iGoDigital to perform an initial post-mortem on a skunkworks project. They then engaged us (my company and I) to plan and execute on a new product, [Guided Selling Tools](https://www.youtube.com/watch?v=Qb4AAI_1GzE), based on our findings from the post-mortem.  Once that new product was completed, we continued to work with iGoDigital to integrate all of their existing products into a single interface.
 quote: |
-  Eliza Brock Software was instrumental in helping to extend our products to mid market customers. She and her team are knowledgable, hard working, and well organized. At times we put extraordinary pressure on her team to meet fairly unreasonable deadlines, and each time they buckled down and came through for us. Eliza’s approach to project management, software architecture, and user behavior driven development result in best-of-breed web applications.
+  Eliza Brock Software was instrumental in helping to extend our products to mid market customers. She and her team are knowledgeable, hard working, and well organized. At times we put extraordinary pressure on her team to meet fairly unreasonable deadlines, and each time they buckled down and came through for us. Eliza’s approach to project management, software architecture, and user behavior driven development result in best-of-breed web applications.
 quote_attribution: Rick Thomas, Product Manager
 ---
 <!-- TODO: Screen shots of the actual tool -->
