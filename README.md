@@ -44,15 +44,18 @@ Run `jekyll serve --watch` in the root of the project.
 11. ✔ Set up SEO-friendly redirect from elizabrock.com to elizamarcum.com
 12. ✔ Set up github pages to use elizamarcum.com instead of elizabrock.com
 11. Set up SEO-friendly redirect from elizabrocksoftware.com to elizamarcum.com
+12. Use [jekyll-redirect-from](https://rubygems.org/gems/jekyll-redirect-from) to set up canonical URLs for the old EBS pages
 13. Cancel Squarespace
 14. Update personal URL on:
   * LinkedIn
   * GitHub
   * Twitter
 15. Take a final pass at my resume to be sure it includes all the cool stuff from my website
+16. Update GitHub settings to force https
 
 ## Future Improvements
 
+1. Try out the skill chart protoyped here: https://docs.google.com/spreadsheets/d/1-uCwT-ZM0ja8sknY5MjIQfv_uhB6QSa7uFVcxWzDC1c/edit#gid=0
 1. Look in Google Search Console
 2. More Styling
   * Make the nav look better at the in-between sizes
