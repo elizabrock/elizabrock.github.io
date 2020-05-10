@@ -26,7 +26,7 @@ Run `jekyll serve --watch` in the root of the project.
 5. ✔ Update markup (\_includes, \_layouts, \*.md)
 6. ✔ Add jekyll seo plugin
 7. ✔ Add jekyll sitemap
-8. Set up Google analytics snippet
+8. ✔ Set up Google analytics snippet
 9. ✔ Update content
   1. ✔ Headshot
   2. ✔ Bio
@@ -37,9 +37,11 @@ Run `jekyll serve --watch` in the root of the project.
   * ✔ Don't forget about the 404 page
 7. ✔ Perhaps a little rewriting of git history before moving this branch to master
 8. Run spell check
-9. Check on TOODs
+10. Move Primitive to the vendor folder
+9. Check on TODOs
 10. Eliminate unused CSS variables
 11. Remove commented out CSS
+12. Update updated\ats so that the sitemap will be accurate
 12. Relaunch personal site (by pushing this branch to master)
 4. Update personal URL on:
   * LinkedIn
