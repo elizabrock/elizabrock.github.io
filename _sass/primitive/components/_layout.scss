@@ -3,7 +3,7 @@
  */
 
 body > main, body > main > article {
-  & > section, & > h1 {
+  & > section:not(.simple_page), & > h1 {
     @extend %flex-row;
     & > div, & > nav, & > h2:first-child {
       @extend %flex-cell;
@@ -84,7 +84,7 @@ body > main, body > main > article {
       margin-bottom: 0;
     }
 
-    h2 {
+    & > h2:first-child {
       color: $alternate-font-color;
       margin-top: -1 * ($h2 + 1.6rem); // TODO: Adjust for small h2 size on mobile
       margin-left: -1 * $global-space;

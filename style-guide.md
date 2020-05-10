@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: simple_page
 sitemap: false
 title: Style Test Page
 permalink: /style_guide/
