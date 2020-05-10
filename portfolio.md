@@ -38,7 +38,6 @@ permalink: /portfolio_and_resume
       <li>
         <a href="{{ case_study.url }}">
           <figure>
-            <!-- TODO: Run all the logos through a resizer, a. la Gwen's cookbook -->
             <img src="/images/portfolio/logos/{{ case_study.logo }}" alt="{{ case_study.client_name }} Logo" />
             <figcaption>{{ case_study.client_name }}</figcaption>
           </figure>
@@ -52,7 +51,6 @@ permalink: /portfolio_and_resume
     {% for client in site.data.additional_clients_list %}
       <li>
           <figure>
-            <!-- TODO: Run all the logos through a resizer, a. la Gwen's cookbook -->
             <img src="/images/portfolio/logos/{{ client.logo }}" alt="{{ client.name }} Logo" />
             <figcaption>{{ client.name }}</figcaption>
           </figure>
@@ -100,7 +98,6 @@ permalink: /portfolio_and_resume
   </blockquote>
 
   <h3>What My Students Say:</h3>
-  <!-- TODO: Update these with current job titles! -->
 
   <blockquote>
     <p>&#147;Eliza’s teachings are the sole reason that I feel confident in my ability to not only work in Ruby on Rails, but to also help teach it to others.&#148;</p>

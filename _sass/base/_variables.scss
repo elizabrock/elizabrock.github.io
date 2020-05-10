@@ -14,8 +14,6 @@ $happyorange: #D9946C;
 $happyred: #BF6565;
 // Old Brand Colors:
 $mediumred: #A23736;
-$somewhat-transparent: transparentize(#fff, 0.25); // TODO: The #fff here should be $alternate-background
-$basically-transparent: transparentize(#fff, 0.95); // TODO: The #fff here should be $alternate-background
 $light-gray: #ddd;
 
 // Animations
@@ -34,6 +32,11 @@ $primary-color: #0366ee; // The default from Primitive
 $link-color: $primary-color; // The default from Primitive
 $link-hover-color: shade($link-color, 25%);
 $bq-border: 16px solid #f0f0f0; // light grey // TODO: Modify this value
+
+// Custom Colors for elizamarcum.com, but these use the global colors,
+// so they need to be down here.
+$somewhat-transparent: transparentize($alternate-background, 0.25);
+$basically-transparent: transparentize($alternate-background, 0.95);
 
 // Typography > Body
 

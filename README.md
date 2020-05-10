@@ -24,7 +24,7 @@ Run `jekyll serve --watch` in the root of the project.
 
 1. All code on master is automatically deployed by GitHub once it has been pushed to GitHub.
 
-## 2020 Personal Site Updates TODO
+## 2020 Personal Site Update Checklist
 
 1. ✔ Update dependencies
 2. ✔ Set up SEO-friendly redirect from elizabrock.com to elizamarcum.com
@@ -44,7 +44,7 @@ Run `jekyll serve --watch` in the root of the project.
 7. ✔ Perhaps a little rewriting of git history before moving this branch to master
 8. ✔ Run spell check
 10. ✔ Move Primitive to the vendor folder
-9. Check on TODOs
+9. ✔  Check on TO-DOs in the code
 10. Eliminate unused CSS variables
 11. Remove commented out CSS
 12. Update updated\ats so that the sitemap will be accurate
@@ -56,16 +56,30 @@ Run `jekyll serve --watch` in the root of the project.
 13. Refine the merely acceptable status of the design implementation:
   *  Have navigation mark the current section
 14. Set up SEO-friendly redirect from elizabrocksoftware.com to elizamarcum.com
-15. Use [jekyll-redirect-from](https://rubygems.org/gems/jekyll-redirect-from) to set up canonical URLs for the old EBS pages
+15. Use [jekyll-redirect-from](https://rubygems.org/gems/jekyll-redirect-from) to:
+  * rename /social to /contact
+  * set up canonical URLs for the old EBS pages
 16. Cancel Squarespace for elizabrocksoftware.com
-17. Take a final pass at my resume to be sure it includes all the cool stuff from my website
-18. Update GitHub settings to force https
 
 ## Future Improvements
 
+1. More Styling
+  * Use the version of the old logo with the outline, since that will look better on the dark background
+  * Update styling of social to have individual 1/2 width sections against the dark background
+  * Update styling of community involvement to have individual 1/2 width sections against the dark background
+  * Make the nav look better at the in-between sizes
+  * Only include the versions of the font that are currently in use
+  * Set bq-border to something I actually like (maybe the background blue so that it looks cut out?)
+2. More updated content:
+  * Set proper descriptions on the various pages
+  * Update student testimonials with their current job titles
+2. Improve the case studies
+  * Run all the logos through a resizer, a. la Gwen's Cookbook
+  * Perhaps use CSS to greyscale the logos
+  * Add screenshots of the guided selling tool from iGoDigital, or maybe just embed the video?
+2. Update favicon with new blue color (remember favicon.io)
+18. Update GitHub settings to force https
+17. Take a final pass at my resume to be sure it includes all the cool stuff from my website
 1. Try implementing the skill chart I prototyped here: https://docs.google.com/spreadsheets/d/1-uCwT-ZM0ja8sknY5MjIQfv_uhB6QSa7uFVcxWzDC1c/edit#gid=0
 1. Look in Google Search Console
-2. More Styling
-  * Make the nav look better at the in-between sizes
-2. Update favicon with new blue color (remember favicon.io)
 3. Syntax Highlighting?
