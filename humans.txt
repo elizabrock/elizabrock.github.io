@@ -8,8 +8,10 @@
 # THANKS
 
     Nicolas Gallagher (normalize.css)
+    Tania Rascia (primitive UI)
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    GitHub Pages, Normalize.css
+    GitHub Pages, Normalize.css,
+    Primitive UI

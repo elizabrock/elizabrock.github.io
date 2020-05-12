@@ -65,20 +65,22 @@ Run `jekyll serve --watch` in the root of the project.
 
 1. More Styling
   * Use the version of the old logo with the outline, since that will look better on the dark background
-  * Update styling of social to have individual 1/2 width sections against the dark background
-  * Update styling of community involvement to have individual 1/2 width sections against the dark background
+  * Separate out my CSS into more appropriately named files
   * Make the nav look better at the in-between sizes
   * Only include the versions of the font that are currently in use
   * Set bq-border to something I actually like (maybe the background blue so that it looks cut out?)
   * Revisit the blockquote markup: http://html5doctor.com/cite-and-blockquote-reloaded/
   * Refine the footer styling when the two halves of the content don't end at the same point
+  * Override in my CSS the changes that I made in Primitive's scaffolding css
 2. More updated content:
   * Set proper descriptions on the various pages
   * Update student testimonials with their current job titles
+  * Add a link to this repo in the site footer
 2. Improve the case studies
   * Run all the logos through a resizer, a. la Gwen's Cookbook
   * Perhaps use CSS to greyscale the logos (`filter: grayscale(100%)`)
   * Add screenshots of the guided selling tool from iGoDigital, or maybe just embed the video?
+3. Contribute my tweaks back to Primitive UI
 2. Update favicon with new blue color (remember favicon.io)
 18. Update GitHub settings to force https
 17. Take a final pass at my resume to be sure it includes all the cool stuff from my website
