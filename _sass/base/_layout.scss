@@ -22,7 +22,7 @@ body > main, body > main > article {
   }
 }
 
-body > main > section, body > main > article > section {
+body > main > section, body > main > article > section, .flex-row section {
   padding: $content-padding-mobile;
   background-color: $alternate-background;
 
@@ -63,13 +63,13 @@ body > main > section, body > main > article > section {
 }
 
 @include small-breakpoint {
-  body > main > section, body > main > article > section {
+  body > main > section, body > main > article > section, .flex-row section {
     padding: $content-padding-mobile;
   }
 }
 
 body > main, body > main > article {
-  & > section:not(.low-key) {
+  & > section:not(.low-key), section.high-key {
     // TODO: Find out if this is relevant in 2020
     // Set a non-alpha background color to soothe IE
     background-color: $alternate-background; //$somewhat-transparent;

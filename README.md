@@ -70,16 +70,19 @@ Run `jekyll serve --watch` in the root of the project.
   * Make the nav look better at the in-between sizes
   * Only include the versions of the font that are currently in use
   * Set bq-border to something I actually like (maybe the background blue so that it looks cut out?)
+  * Revisit the blockquote markup: http://html5doctor.com/cite-and-blockquote-reloaded/
+  * Refine the footer styling when the two halves of the content don't end at the same point
 2. More updated content:
   * Set proper descriptions on the various pages
   * Update student testimonials with their current job titles
 2. Improve the case studies
   * Run all the logos through a resizer, a. la Gwen's Cookbook
-  * Perhaps use CSS to greyscale the logos
+  * Perhaps use CSS to greyscale the logos (`filter: grayscale(100%)`)
   * Add screenshots of the guided selling tool from iGoDigital, or maybe just embed the video?
 2. Update favicon with new blue color (remember favicon.io)
 18. Update GitHub settings to force https
 17. Take a final pass at my resume to be sure it includes all the cool stuff from my website
 1. Try implementing the skill chart I prototyped here: https://docs.google.com/spreadsheets/d/1-uCwT-ZM0ja8sknY5MjIQfv_uhB6QSa7uFVcxWzDC1c/edit#gid=0
-1. Look in Google Search Console
+1. Look in [Google Search Console](https://search.google.com/search-console?resource_id=sc-domain%3Aelizamarcum.com)
+2. Confirm that Google still finds the site [mobile friendly](https://search.google.com/test/mobile-friendly?id=zAjMfzVVKLqkllC4862fSg)
 3. Syntax Highlighting?
